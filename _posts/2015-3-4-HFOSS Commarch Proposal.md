@@ -5,11 +5,11 @@ title: HFOSS Community Architecture Project Proposal
 
 *COMMARCH TEAM PROPOSAL*
 3/4/2015
-|	Nick			|	Email			|	
-|	--------------	|	---------------	|
-|	milistisia2		|	bxc4440@rit.edu	|
-|	NumbuhFour		|	fad4470@rit.edu	|
-|	mellolikejello	|	mgk1068@rit.edu	|
+| Nick | Email |	
+| -------------- | --------------- |
+| milistisia2 |	bxc4440@rit.edu |
+| NumbuhFour | fad4470@rit.edu |
+| mellolikejello | mgk1068@rit.edu |
 
 *Which project did your team choose?*
 
