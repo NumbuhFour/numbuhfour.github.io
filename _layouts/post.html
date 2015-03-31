@@ -14,13 +14,4 @@ layout: default
   </div>
 
   {% include disqus.html %}
-  
-  {% if page.tags %}
-    <p class="tags">
-    Tags:
-    {% for tag in page.tags %}
-    <a href="{{ site.baseurl }}/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
-    {% endfor %}
-    </p>
-  {% endif %}
 </article>
