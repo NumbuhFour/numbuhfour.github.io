@@ -1,7 +1,6 @@
-﻿---
+---
 layout: post
 title: Community Architecture Assignment for HFOSS
-
 ---
 https://docs.google.com/a/g.rit.edu/document/d/1VVLGsOXvxpiZzMgxpCvE5RDQXas2C3uBjEe1OwFZufM/edit << Go there for now!
 

@@ -1,7 +1,6 @@
-﻿---
+---
 layout: post
 title: HFOSS Community Architecture Project Proposal
-
 ---
 
 *COMMARCH TEAM PROPOSAL*

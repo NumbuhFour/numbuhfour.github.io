@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Physical Computing: Project1 Writeup
 ---

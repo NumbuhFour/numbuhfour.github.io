@@ -1,7 +1,6 @@
-﻿---
+---
 layout: post
 title: First Bugfix!
-
 ---
 
 I have just gotten done sending in my first patch to an open-source project and man am I relieved. Looking at this goal a week ago I thought it would be fun, but the more I thought about it and the more I tried to do this the more daunting the task became.
