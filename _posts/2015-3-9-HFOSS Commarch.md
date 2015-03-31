@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Community Architecture Assignment for HFOSS
 

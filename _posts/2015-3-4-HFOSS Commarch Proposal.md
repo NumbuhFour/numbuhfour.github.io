@@ -1,4 +1,4 @@
----
+ï»¿---
 layout: post
 title: HFOSS Community Architecture Project Proposal
 
@@ -22,19 +22,19 @@ An emulator for two recent Nintendo video game consoles: Gamecube and the Wii. I
 
 *What will each team member's role be?*
 
-+	NumbuhFour – Mentor communications
-+	milistisia2 – Technical and Production editor
-+	mellolikejello – Design lead
++	NumbuhFour â€“ Mentor communications
++	milistisia2 â€“ Technical and Production editor
++	mellolikejello â€“ Design lead
 
 *Source code repository URL?*
 [Github Repo](https://github.com/dolphin-emu/dolphin)
 
-*List your upstream Mentor’s below:*
+*List your upstream Mentorâ€™s below:*
 
 |	HdKr	|
 |	Many/any devs on #dolphin-emu @ freenode	|
 
-*How will you communicate with them? (i.e. IRC Channel, Email Addresss, mail lists, issue trackers, etc…)*
+*How will you communicate with them? (i.e. IRC Channel, Email Addresss, mail lists, issue trackers, etcâ€¦)*
 
 IRC on #dolphin-emu any time except 1-6am CST (2am to 7am EST)
 
