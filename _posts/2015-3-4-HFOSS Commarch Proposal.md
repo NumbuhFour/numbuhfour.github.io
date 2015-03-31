@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HFOSS Community Architecture Project Proposal
-tags: [ "Old Blog", "Class", "HFOSS" ]
+
 ---
 
 *COMMARCH TEAM PROPOSAL*

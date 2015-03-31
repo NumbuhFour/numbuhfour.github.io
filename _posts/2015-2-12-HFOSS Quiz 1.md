@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HFOSS Quiz #1
-tags: [ "Old Blog", "Class", "HFOSS" ]
+
 ---
 
 This is a post answering questions for a class I’m taking. Not much more to say besides that.

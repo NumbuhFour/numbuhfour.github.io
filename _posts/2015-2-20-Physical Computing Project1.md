@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Physical Computing: Project1 Writeup
-tags: [ "Old Blog", "Class", "Phys Media" ]
 ---
 
 Premise: Using an arduino, build a simple interactive machine that utilizes a minimum of three sensors. My project idea was to create a character with two RGB LEDs for eyes. The sensors I used were a ultrasonic rangefinder, accelerometer, a bluetooth radio, and a potentiometer (just to dim the LEDs).

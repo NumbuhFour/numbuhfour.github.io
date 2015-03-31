@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HFOSS: Lit Review 1
-tags: [ "Old Blog", "Class", "HFOSS" ]
+
 ---
 
 This is a literature review of What Is Open Source by Steve Weber.
