@@ -6,7 +6,7 @@ date: 2015-4-1 11:30:00 +04:00
 
 A team proposal for the creation of an educational game built on the OLPC XO laptops and Sugar Labs
 
-### List Your Other Team Members  Below:
+### List Your Other Team Members Below:
 
 - [direkitteh](http://direkitteh.tumblr.com/post/114182650154/team-proposal-education) : lkd8070@rit.education
 - milistisia2 : bxc4440@rit.edu
@@ -21,7 +21,7 @@ Mini Game Mayhem
 
 An application similar to Luminosity with a collection of math-themed games to teach various topics of the fourth grade curriculum. Users receive scores for their performance and can improve over time.
 
-### What will each team member’s role be?
+### What will each team memberâ€™s role be?
 
 Everyone will make their own very small minigames and assist in others where needed.
 
@@ -37,7 +37,7 @@ Everyone will make their own very small minigames and assist in others where nee
 
 To be determined
 
-### How will you communicate with them? (i.e. IRC Channel, Email Addresss, mail lists, issue trackers, etc…)
+### How will you communicate with them? (i.e. IRC Channel, Email Addresss, mail lists, issue trackers, etcâ€¦)
 
 - [IRC channel](irc://irc.freenode.net#sugar)
 - Email sugar-devel [mail list](sugar-devel@lists.sugarlabs.org)
