@@ -39,8 +39,8 @@ To be determined
 
 ### How will you communicate with them? (i.e. IRC Channel, Email Addresss, mail lists, issue trackers, etc…)
 
-- IRC channel (irc://irc.freenode.net#sugar)
-- Email sugar-devel mail list (sugar-devel@lists.sugarlabs.org)
+- [IRC channel](irc://irc.freenode.net#sugar)
+- Email sugar-devel [mail list](sugar-devel@lists.sugarlabs.org)
 
 ### What are the easy parts?
 
