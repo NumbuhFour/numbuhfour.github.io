@@ -8,7 +8,7 @@ A team proposal for the creation of an educational game built on the OLPC XO lap
 
 ### List Your Other Team Members  Below:
 
-	- [direkitteh](http://direkitteh.tumblr.com/post/114182650154/team-proposal-education) : lkd8070@rit.education
-	- milistisia2 : bxc4440@rit.edu
-	- NumbuhFour : fad4470@rit.edu
-	- holtr94 : rgh7614@rit.edu
+- [direkitteh](http://direkitteh.tumblr.com/post/114182650154/team-proposal-education) : lkd8070@rit.education
+- milistisia2 : bxc4440@rit.edu
+- NumbuhFour : fad4470@rit.edu
+- holtr94 : rgh7614@rit.edu
