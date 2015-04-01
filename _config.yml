@@ -74,3 +74,6 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+	
+paginate: 4
+paginate_path: "/blog/page:num/"
