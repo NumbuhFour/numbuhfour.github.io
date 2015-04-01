@@ -68,12 +68,12 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 
+paginate: 4
+paginate_path: "/blog/page:num/"
+
 # Exclude these files from your production _site
 exclude:
     - Gemfile
     - Gemfile.lock
     - LICENSE
     - README.md
-	
-paginate: 4
-paginate_path: "/blog/page:num/"
