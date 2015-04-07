@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hecklebot: The meanest computer on Twitch
+title: Hecklebot
 ---
 
 ### [Check out Hecklebot on Github](https://github.com/fad4470/Hecklebot)
