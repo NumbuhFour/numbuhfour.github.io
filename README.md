@@ -1,3 +1,5 @@
+Quick link to site: [fad4470.github.io](http://fad4470.github.io/)
+
 # Jekyll Now
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
