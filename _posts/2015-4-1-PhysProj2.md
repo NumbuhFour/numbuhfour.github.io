@@ -53,7 +53,7 @@ They worked really well, and were each as bright as a flashlight. However, my di
 
 #### The Sewing
 
-As mentioned in [another post](http://fad4470.github.io/XOWeek/) I didn't have a lot to do over my spring break besides sew.
+As mentioned in [another post]({{ site.baseurl }}/XOWeek/) I didn't have a lot to do over my spring break besides sew.
 
 It was a tedious process but I had a lot of free time. My biggest concern was making sure no wires were touching. The leather was useful since I could needle deeper into the leather to avoid unintentional, but this didn't stop everything. There were still a few places where the ends of wires got free enough to bend over and touch another wire.
 
