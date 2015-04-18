@@ -43,7 +43,7 @@
 	<p> LAYOUT TEST: {{ content.layout }} | {{ page.layout }} </p>
 	
     <div class="wrapper-footer">
-      {% if content.layout == "default" %}	
+      {% if page.layout == "default" %}	
         {% include page_nav.html %}
       {% endif %}
       <div class="container">
