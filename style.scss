@@ -285,7 +285,10 @@ footer {
 
 // Pagination
 .pagination {
-  text-align: right;
+  position: absolute;
+  bottom: 120px;
+  width: 100%;
+  text-align: center;
   font-size: 80%;
   margin-top: 5px;
   margin-bottom: 5px;
