@@ -1,16 +1,16 @@
 <!-- Pagination links -->
 <div class="pagination">
 	
-	<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', 1 }}"> &laquo;&laquo; First</a>
+	<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', 1 }}"> &laquo; First</a>
 
 	{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path }}" class="previous"> &laquo; Previous </a> |
+		<a href="{{ paginator.previous_page_path }}" class="previous"> &lt; Previous </a> |
 	{% else %}
-		<span class="previous"> &laquo; Previous </span> |
+		<span class="previous"> &lt; Previous </span> |
 	{% endif %}
 	
-	{% for page in ((paginator.page-3)...(paginator.page+3)) %}
-		{% if page <= 0 or page > paginator.total_pages%}
+	{% for page in (1...paginator.total_pages) %}
+		{% if page <= paginator.page-3 or page > paginator.page+3%}
 			{% continue %}
 		{% endif %}
 		
@@ -25,9 +25,9 @@
 	
 	
 	{% if paginator.next_page %}
-		| <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+		| <a href="{{ paginator.next_page_path }}" class="next">Next &gt;</a>
 	{% else %}
-		| <span class="next ">Next &raquo; </span>
+		| <span class="next ">Next &gt; </span>
 	{% endif %}
-	<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}"> Last &raquo;&raquo;</a>
+	<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}"> Last &raquo;</a>
 </div>
