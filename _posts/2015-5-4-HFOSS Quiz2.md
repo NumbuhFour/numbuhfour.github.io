@@ -24,13 +24,13 @@ This is my response to a quiz given for my HFOSS class on the topic of open-sour
  
  - Below is a list of licenses. Please identify where on the spectrum each falls, and whether or not it is an OSI approved license.
 
-   - GPLv2 : copyleft, distributive, OSI
-   - BSD : non-copyleft, permissive, non-OSI
-   - GPLv3 : copyleft, distributive OSI
-   - MIT : non-copyleft, permissive, BSD, non-OSI
-   - AGPLv3+ : distributive OSI
-   - Apache 2.0 : distributive, OSI
-   - LGPL : distributive, OSI
+   - GPLv2 : copyleft, OSI
+   - BSD : non-copyleft, non-OSI
+   - GPLv3 : copyleft, OSI
+   - MIT : non-copyleft, permissive, non-OSI
+   - AGPLv3+ : copyleft OSI
+   - Apache 2.0 : copyleft, OSI
+   - LGPL : copyleft, OSI
    - WTFPL : permissive, non-OSI
 
 
