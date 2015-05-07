@@ -45,6 +45,15 @@ So, with that design already in hand, I took to improving it so I could turn it 
 ## Process
 
 ## Future Goals and Improvements
+My goal now is to make this something worth wearing daily. To have it able to do enough that the bulkiness of it is outweighed by its usefulness. 
+
+At this time though, some major improvements would be 
+ - The bluetooth app. I'd like to have it handle more rather than let Tasker handle it all
+ - Have a single housing, not the three pieces of the watch, battery and bluetooth separately
+ - Arduino coding improvements. I haven't done a lot of research into this, but having all the code in one file is always a taboo
+ - Move more control to android. Able to write and control whole states from the phone
+ - Point the connection wires away from the wrist. At this time the power and bluetooth connectors are pointed straight where my wrist bends up, and it can be rather obnoxious.
+ - The cap currently pops off if the strap is too tight. Perhaps moving the clamps 90&deg; to the would make it a little better.
 
 Writing notes:
 -Process
