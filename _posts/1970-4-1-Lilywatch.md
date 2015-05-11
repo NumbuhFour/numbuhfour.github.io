@@ -117,8 +117,16 @@ So, with that design already in hand, I took to improving it so I could turn it 
     
 
 ### Wiring plug
+    To go along with removability, the plug for the battery was attached to the pins intended for the USB cable. The plug was simple, it provided a switch as well as continued pins so that I could plug things in behind the plug. Namely this was for the Bluetooth module. 
+    
+    ![Plug pic]()
+    
+    The wires for this were a little frustrating. The connections kept breaking due to being moved around so much. I tried to hold them in place using various things wrapped around to keep the connections together, but all proved fruitless. The biggest hassle was between the JST connector its wire. What I eventually found was that using solid wire as opposed to bendable, stranded wire made for a more lasting connection. 
+    
+    ![closeup on JST]()
 
 ### Android
+
 
 ### Bluetooth
 
