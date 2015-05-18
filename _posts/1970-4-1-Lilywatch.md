@@ -73,6 +73,7 @@ Writing notes:
 		-All one file :(
 		-Pretty effects
 		-States, binary, and button restrictions
+		-refactor to multi file!
 	-Battery
 		-Nope to copter battery
 		-Battery housing
@@ -94,6 +95,20 @@ Writing notes:
 		-Wiring nice. Its growing
 		%Flipped watch to left hand%
 		-Stupid baud rate. Edited settings remotely
+    - Unity
+        -To use System.IO.Ports: ProjectSettings > Player settings > Change .Net 2.0 Subset  to .Net 2.0
+		
+	-IR Sensing
+		-Wonky <100ms
+		-Secondary arduinos. Need replacement
+	-Homepage thingy
+		-Leftover from another project
+	-PHP events
+		-SSEs are cool!
+		-While loops
+	-Streamus
+		-Finally
+		-What a good feeling it was to get it working with my phone
 	
 -Components
 -Features

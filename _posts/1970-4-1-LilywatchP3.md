@@ -1,0 +1,22 @@
+Computers and code
+	-Programmingggggg
+		-Git! and Issues!
+		-All one file :(
+		-Pretty effects
+		-States, binary, and button restrictions
+		-refactor to multi file!
+	-Android
+		-App
+			-BlueTerm was open source and pointed to google examples
+			-Edited bluetooth chat example to include intents for messaging via tasker
+		-Tasker
+			-Editible without computer
+			-Handles events from phone
+			-Able to call intents to app
+	-Bluetooth
+		-Wiring nice. Its growing
+		%Flipped watch to left hand%
+		-Stupid baud rate. Edited settings remotely
+		-RSSI and power level
+    - Unity experiments
+        -To use System.IO.Ports: ProjectSettings > Player settings > Change .Net 2.0 Subset  to .Net 2.0

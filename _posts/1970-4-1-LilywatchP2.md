@@ -1,0 +1,21 @@
+Building
+	-Printing watch
+		-Improvemnts from last watch case
+		-Holes
+		-Foam pads on both sides
+	-Neopixel
+		-Soldering, no sewing. Stickytack
+	-Sensors on the bottom
+		-Glueing
+		-Tight space
+		-Foam cushion
+	-Leather straps
+	-Battery
+		-Nope to copter battery
+		-Battery housing
+			-Designed for big battery and charger. Basically second watch
+			-Printing process & improvments
+	-Wiring plug
+		-Intentionally left pins available
+		-Switch to prevent misloading
+		-Temporary pin protector
