@@ -23,6 +23,7 @@ So, with that design already in hand, I took to improving it so I could turn it 
  - Auto-light level (disable-able through config)
  - Notification for when an SMS is received
  - Watch alerts you to phone alarms
+ - Shake to return to clock
  - App-like programming structure
     Current 'apps'
       - Clock
@@ -31,6 +32,23 @@ So, with that design already in hand, I took to improving it so I could turn it 
       - Feature config menu
       - Time and brightness settings
  - On-board LED will freeze if something goes horribly wrong
+ 
+## Materials TODO ADD LINKS
+ - A Lilypad arduino
+ - A Flora accel/mag sensor
+ - An enclosed vibration motor
+ - 7 Neopixels
+ - 3.7v Li-ion battery
+ - Adafruit Li-ion battery charger
+ - Sparkfun Bluetooth Mate gold
+ - A photoresistor
+ - 2 Buttons
+ - 1 Switch
+ - 1 Transistor (check type)
+ - 3D Printed housings
+ - Some leather
+ - Some 1.5mm foam (extracted from some case I had)
+ - Copper tape
 
 ## Intentions
 #### Removable
@@ -43,6 +61,74 @@ So, with that design already in hand, I took to improving it so I could turn it 
     The app which talks to the watch is in-essence just a relay for bluetooth communications and doesn't handle any logic. All the actual communications are handled by [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en) which sends messages to the watch through the app when appropriate. I wanted to use Tasker because I didn't want to have to go plug my phone in to my computer to reprogram or change something. This was still technically expected to be a class project, so I was expected to work in class, and I wasn't going to setup the Android SDK on a school computer.
 
 ## Process
+
+### Printing the Housing
+    Since I already had a design from the last project, this was fairly easy. The only thing I did was make some improvements to the model. Namely I added holes in the bottom so connections could be made via the bottom of the watch. I wanted to do this because in the last project everything was attached to the cap, making removal of the cap difficult. That was a silly choice, but I learned.
+    
+    ![Pic of the progression of the case]()
+    
+    The battery housing had to be done from scratch for this project, though that wasn't hard. It may not be pretty, it's just a box, but it gets the job done. I wanted the battery to be it's own entity because I wanted to keep the charging circuit on-board. I also made sure that the cap for the battery housing was quickly removable so that if something goes horribly wrong, as it occasionally does with batteries, it's not so strongly fixed to my wrist.
+    
+    ![Battery housing pics]()
+
+### Components
+#### The Foam Ring
+    Similar to the last project, I used a foam ring to do make all the connections directly with the board. Using some 1.5mm thick foam I had laying around in my materials box, I cut rings for the top and the bottom of the board that matched the radius of the Lilypad and were thick enough to cover most of the metal pads on already the board. Then I took some copper tape and taped the ring wherever there was a pad on the Lilypad I thought I would use, and made sure to place a a small wire with a loop on the end between the layers of the tape (I only looped around a little more than once to leave an overlap). That wire would be what I would make my soldered connections to, since in the last project I learned not to solder directly to the copper pads. That melted the foam, made the pads too hard, and in general was a terrible mess. 
+    
+    ![Pic of the foam ring and the little wire]()
+    
+    The bottom of the pad needed a little extra care, since the Lilypad I have doesn't come with connection pads on the bottom. This was easily fixed though with a little more copper tape. I just needed to make sure I scraped off some glue so that a connection could be made between the tape and the pad.
+    
+    ![Pic of the board with tape]()
+
+#### Neopixels
+    Neopixel attachment was kind of fun. This was mostly due to not having to sew through leather with my feeble, makeshift connectors. I was aware that there was already a product meant for this kind of project (see [Neopixel Ring](http://www.adafruit.com/products/1643)), but I knew I wouldn't be using the full ring, plus I already had some perfectly fine Neopixels laying around. 
+    
+    To solder them, I made an indent in some sticky putty (meant to hold posters on walls) using the face of the watch and laid out the Neopixels where they should go in relation to the watch. This kept them in place relative to each other while I soldered the necessary wires together. Then it was as easy as pulling it off as one thing and gluing it to the watch face. I soldered the power and ground wires to the little connector wires I made, and tucked a resistor under the trim of the cap for the data wire. It all was falling into place better than I expected.
+    
+    ![Pic of the wires with the resistor under the cap]()
+
+#### Bottom Motor and Sensors
+    The bottom sensors were attached kind of hap-hazardly. I didn't mean to do it that way, but I didn't really have a plan for them since I knew I'd be adding more sensors later. I just didn't know what. The vibration motor and its transistor went on first. I tried to make sure there was ample room for the future, but with so little room already, any effort made to that effect was unnoticeible. 
+    
+    Next came the Flora accel/mag sensor. I initally tried to make sure this wasn't placed permanently, but I only had two types of glue: Superglue and rubber cement. Rubber cement was too weak to hold it and the Superglue was obviously too strong. I tried mixing them to dilute the superglue, but that was silly and messy and the part was still stuck too strong. Oh well.
+    
+    ![Bottom pic]()
+    
+    The photo resistor came much later in the project, but adding it was pretty trivial. I obviously had to make the head of it peak out to the top, so I wrapped it up towards the cap and glued it to a square I cut off the little plastic thing the Neopixels came in. It fit miraculously well, and left the photoresistor tucked nicely into a corner.
+    
+    [!photo resistor pic]()
+    
+### Leather and Straps
+    The leather for this was bought at Micheals (I'm pretty sure it's not real). I just got a small square, enough for this project and a few others. I cut it to fit and tied it down with some string and volia! That's done.
+    
+    ![Leather glamour shot]()
+    
+    The leather on the bottoms of the watch and battery housings were there to prevent the components from being an irritant, which they were. The leather helped immensly.
+    
+### Programming
+    I call myself primarily a programmer, so this part of the project was the least daunting. However, I have never done anything so big with an Arduino before. I wish I had learned earlier that I could use multiple files, that would have made things a lot easier. Navigating a single 900-line file is infuriating to say the least. But the job got done, all was well, and I finally had a wearable, functional watch made from an Arduino.
+    
+    ![Pic of watch working and worn, no battery]()
+    
+    I also put the code on GitHub. It seemed kinda silly since it was all in one file, but versioning software is still useful even then. I just had a very sad looking repo. TODO ADD LINK
+
+### Battery
+    
+
+### Wiring plug
+    To go along with removability, the plug for the battery was attached to the pins intended for the USB cable. The plug was simple, it provided a switch as well as continued pins so that I could plug things in behind the plug. Namely this was for the Bluetooth module. 
+    
+    ![Plug pic]()
+    
+    The wires for this were a little frustrating. The connections kept breaking due to being moved around so much. I tried to hold them in place using various things wrapped around to keep the connections together, but all proved fruitless. The biggest hassle was between the JST connector its wire. What I eventually found was that using solid wire as opposed to bendable, stranded wire made for a more lasting connection. 
+    
+    ![closeup on JST]()
+
+### Android
+
+
+### Bluetooth
 
 ## Future Goals and Improvements
 My goal now is to make this something worth wearing daily. To have it able to do enough that the bulkiness of it is outweighed by its usefulness. 
