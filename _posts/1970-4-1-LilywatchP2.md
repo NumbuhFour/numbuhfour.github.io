@@ -5,28 +5,6 @@ title: Lilywatch Part2&#58; The Build
 
 This is a continuation of my previous posts regarding the Lilywatch: A watch built using an Arduino. This post goes over the building of the watch itself.
 
-Building
-	-Printing watch
-		-Improvemnts from last watch case
-		-Holes
-		-Foam pads on both sides
-	-Neopixel
-		-Soldering, no sewing. Stickytack
-	-Sensors on the bottom
-		-Glueing
-		-Tight space
-		-Foam cushion
-	-Leather straps
-	-Battery
-		-Nope to copter battery
-		-Battery housing
-			-Designed for big battery and charger. Basically second watch
-			-Printing process & improvments
-	-Wiring plug
-		-Intentionally left pins available
-		-Switch to prevent misloading
-		-Temporary pin protector
-
 ## Process
 
 ### Printing the Housing
@@ -74,7 +52,13 @@ Building
     The leather on the bottoms of the watch and battery housings were there to prevent the components from being an irritant, which they were. The leather helped immensly.
     
 ### Battery
-    
+    I was kind of worried about the battery. I've had some pretty undesirable things happen to my cellphone batteries in the past, and I didn't want to take any chances.
+	
+	That is why I gave it its own housing with enough room to have the charging circuit. That way it doubled as protection and built-in charging. I mean, if I had to wear it around and it died, I'd like to be able to charge it without going home to fetch a charger box.
+	
+	![Pic of the battery box]()
+	
+	The battery box was pretty simple and strapped down like the watch itself. It also has a cap, but with the way its designed this cap was not really meant to come off as easily. The cap was designed to fit around the plugs of the charging circuit and the two clips holding it in place were much sturdier, preventing them from bending back. I took advantage of the bending clips on the watch face so that it was removable, but I knew I wasn't going to be removing the battery very often and I'd rather have it secure. In fact, the cap is so secure it took a screwdriver to get the clips to bend at all during one of the iterations, so for the final cap I added a middle wall which allowed me to sort of push the cap to one side while bending the opposite clip, releasing it only when I intend to. 
 
 ### Wiring plug
     To go along with removability, the plug for the battery was attached to the pins intended for the USB cable. The plug was simple, it provided a switch as well as continued pins so that I could plug things in behind the plug. Namely this was for the Bluetooth module. 

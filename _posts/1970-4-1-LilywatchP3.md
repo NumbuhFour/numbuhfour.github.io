@@ -5,29 +5,6 @@ title: Lilywatch Part3&#58; Computers and Code
 
 This is a continuation of my previous posts regarding the Lilywatch: A watch built using an Arduino. This post goes over the programming and computer aspects of the device.
 
-Computers and code
-	-Programmingggggg
-		-Git! and Issues!
-		-All one file :(
-		-Pretty effects
-		-States, binary, and button restrictions
-		-refactor to multi file!
-	-Android
-		-App
-			-BlueTerm was open source and pointed to Google examples
-			-Edited bluetooth chat example to include intents for messaging via tasker
-		-Tasker
-			-Editable without computer
-			-Handles events from phone
-			-Able to call intents to app
-	-Bluetooth
-		-Wiring nice. Its growing
-		%Flipped watch to left hand%
-		-Stupid baud rate. Edited settings remotely
-		-RSSI and power level
-    - Unity experiments
-        -To use System.IO.Ports: ProjectSettings > Player settings > Change .Net 2.0 Subset  to .Net 2.0
-
 ## Computers and Code
 
 ### Arduino
@@ -64,5 +41,18 @@ Computers and code
 	
 ### Experiments
 #### Bluetooth and RSSI
+	During early testing with the bluetooth module, I wanted to see if there was a way to recreate a program I had in middle-school that unlocked my computer automatically when my phone was in range. I did some research and discovered this was done by reading a bluetooth connection signal strength to estimate a distance. It was far from accurate, but it could at least tell if I was a few feet vs in another room.
+	
+	Bluetooth uses something named RSSI or Received Signal Strength Indication to inform the bluetooth radio's user of its connection strength. However, I was met with some major problems when trying to use this for anything practical.
+	
+	My intention was to use it as a sort of 'find my phone' application, beeping like a metal detector whenever you got nearer. Unfortunately, the only way to get RSSI information was to request that they start being broadcast from the radio module's command state itself. The worst part was that they would only ever update every 5 seconds, and it would be nigh-unpredictable. The signal strength would jump from full power down to ~80% at around 10m, then gradually fell sporadically until something blocked line-of-sight with the device. 
+	
+	I tried turning down the power consumption of the radio module, but it showed the same effect of not doing anything for a distance and then gradually falling although this time the initial distance was about 2m. Still, not that great. It could be usable if the strength gradient it took was more predictable, but it jumped around far too much. Plus, if anything broke line-of-sight at the lower power setting, it would just disconnect entirely. 
+	
+	I still see potential to get this feature working, and maybe one day find to achieve it, but for now I am putting it on hold. I did however keep the power level low for the sake of battery consumption.
 	
 #### Unity
+	In my attempts to make an interactive app, I also tried communicating with a Unity3D project on my PC over serial. Getting it to work wasn't hard at all, since C# already has classes built in for serial communications, the only fault was that I couldn't calculate a decent orientation vector given the accelerometer and magnetometer data. For whatever reason, the compass seemed so inconsistent, and whenever I pointed in certain directions, the orientation vector was horribly skewed. I wanted to get some sort of mock-motion control going, but I scraped that idea quickly in favor of working with the TV. Which I will talk about in the next post.
+	
+	A note to those who may wish to use Unity3D, it required enabling .Net 2.0, which you can do by going to: 
+	> ProjectSettings > Player settings > Change .Net 2.0 Subset  to .Net 2.0
