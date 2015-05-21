@@ -14,7 +14,7 @@ This was a project I started for my Physical Media class that went way off cours
 
 The watch was something I already had rough plans for after designing a housing for a Lilypad during **my last PhysMed  project**(link). At the time, I really just wanted something I could plug my Lilypad into without having it permanently attached to a circuit. I wanted to have it available for other projects should they come up without compromising whatever project I'm taking it from. 
 
-So, with that design already in hand, I took to improving it so I could turn it into a platform on which I could make whatever this 'experience' my next assignment called for. But in doing so, I got side-tracked testing to make sure it could do anything and ended up focusing on turning into a smartwatch.
+So, with that design already in hand, I took to improving it so I could turn it into a platform on which I could make whatever this 'experience' my next assignment called for. But in doing so, I got side-tracked testing to make sure it could do anything and ended up focusing on turning into a personalized smartwatch. A smartwatch tailored to me and my expectations for how things work.
 
 Over the next few days I will be writing posts on the process of making it and some accompanying projects to document this adventure. The project is not done, it's one of those that I hope to gradually keep adding to over a long span of time, but I will try to keep adding to this blog as well to continue documenting its progress.
 
@@ -25,6 +25,7 @@ Over the next few days I will be writing posts on the process of making it and s
  - Auto-light level (disable-able through config)
  - Notification for when an SMS is received
  - Watch alerts you to phone alarms
+ - Contextual control over my livingroom and bedroom music when in range of them
  - App-like programming structure
     Current 'apps'
       - Clock
@@ -105,3 +106,7 @@ Writing notes:
 	-Move more control to android. Able to write whole states from phone
     -point connection cables away from wrist
     -cap pops off if too tight
+	
+-Conclusion
+	-Tailored to me, not a project aimed at the masses
+	-

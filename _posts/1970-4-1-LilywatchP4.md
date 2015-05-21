@@ -1,3 +1,10 @@
+---
+layout: post
+title: Lilywatch Part4&#58; Accessories
+---
+
+This is a continuation of my previous posts regarding the Lilywatch: A watch built using an Arduino. This post goes over the accessories I added later on to give more utility to the watch.
+
 -Accessories
 	-IR Sensing
 		-Wonky <100ms
@@ -14,5 +21,10 @@
 	
 	
 	(organized)
-	-The TV
-		
+	-The TV: Webpage + php events + streamus.
+	-Webpage
+	-PHP
+	-Streamus
+	
+	-IR
+	-PIR
