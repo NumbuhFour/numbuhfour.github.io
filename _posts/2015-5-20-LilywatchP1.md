@@ -37,13 +37,16 @@ Over the next few days I will be writing posts on the process of making it and s
 
 ## Intentions
 #### Removable
-    I can be a bit of a cheapskate when it comes to materials. I don't like using components in ways that would make them unusable for future prospects, and that was my number-one drive for keeping the Lilypad removable. Plus, there are times when testing is a whole lot easier with a Arduino board that isn't attached to anything. So the housing for the arduino is snapped in place and able to be removed and replaced with ease.
+I can be a bit of a cheapskate when it comes to materials. I don't like using components in ways that would make them unusable for future prospects, and that was my number-one drive for keeping the Lilypad removable. Plus, there are times when testing is a whole lot easier with a Arduino board that isn't attached to anything. So the housing for the arduino is snapped in place and able to be removed and replaced with ease.
+
 #### Sturdy
-    Compared to my last project, where everything was sewn together in unforgiving leather, everything here is soldered together in a way to support daily movement as well as the removability of the board. (Truthfully I'm just so happy I don't have to deal with sewing wires in leather anymore)
+Compared to my last project, where everything was sewn together in unforgiving leather, everything here is soldered together in a way to support daily movement as well as the removability of the board. (Truthfully I'm just so happy I don't have to deal with sewing wires in leather anymore)
+
 #### Modular
-    Wires are attached to the board by copper-coated foam pads which are pressed into the existing pads of the Lilypad to create a solid connection. This makes it easy to add more components should I ever find something worth attaching later on.
+Wires are attached to the board by copper-coated foam pads which are pressed into the existing pads of the Lilypad to create a solid connection. This makes it easy to add more components should I ever find something worth attaching later on.
+
 #### Configurable without Android programming
-    The app which talks to the watch is in-essence just a relay for bluetooth communications and doesn't handle any logic. All the actual communications are handled by [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en) which sends messages to the watch through the app when appropriate. I wanted to use Tasker because I didn't want to have to go plug my phone in to my computer to reprogram or change something. This was still technically expected to be a class project, so I was expected to work in class, and I wasn't going to setup the Android SDK on a school computer.
+The app which talks to the watch is in-essence just a relay for bluetooth communications and doesn't handle any logic. All the actual communications are handled by [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en) which sends messages to the watch through the app when appropriate. I wanted to use Tasker because I didn't want to have to go plug my phone in to my computer to reprogram or change something. This was still technically expected to be a class project, so I was expected to work in class, and I wasn't going to setup the Android SDK on a school computer.
 
 ## Future Goals and Improvements
 My goal now is to make this something worth wearing daily. To have it able to do enough that the bulkiness of it is outweighed by its usefulness. 
