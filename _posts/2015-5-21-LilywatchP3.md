@@ -10,7 +10,7 @@ This is a continuation of my previous posts regarding the Lilywatch: A watch bui
 ### Arduino
 I call myself primarily a programmer, so this part of the project was the least daunting. However, I have never done anything so big with an Arduino before. I wish I had learned earlier that I could use multiple files, that would have made things a lot easier. Navigating a single 900-line file is infuriating to say the least. But the job got done, all was well, and I finally had a wearable, functional watch made from an Arduino.
 
-![Pic of watch working and worn, no battery]()
+![12 Pic of watch working]({{ site.baseurl }}/images/lilywatch/12_working.jpg)
 
 I also put the code on GitHub. At first it seemed kinda silly since it was all in one file, but versioning software is still useful even then. I just had a very sad looking repo. TODO ADD LINK
 

@@ -8,7 +8,7 @@ title: Lilywatch Part1&#58; Intro
 
 A watch powered by a removable [Lilypad arduino](http://lilypadarduino.org/) and equipped with a bluetooth connection to my android phone.
 
-![pics pics pics]()
+![1 overview pic]({{ site.baseurl }}/images/lilywatch/1_overview.jpg)
 
 This was a project I started for my Physical Media class that went way off course. The original premise was to make a small device that communicates with another device to create an interesting experience, but I quickly got distracted and made a watch instead (I made an 'experience' app for it too). 
 
