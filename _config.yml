@@ -26,7 +26,7 @@ footer-links:
   linkedin:
   pinterest:
   rss: feed # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: 
+  twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
 
@@ -55,7 +55,7 @@ markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
 # markdown: kramdown
-# kramdown: 
+# kramdown:
 #   input: GFM
 highlighter: pygments
 permalink: /:title/
@@ -71,6 +71,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-redirect-from
+  - jekyll-paginate
 
 paginate: 4
 paginate_path: "/blog/page:num/"
