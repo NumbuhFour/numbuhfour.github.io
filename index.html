@@ -4,6 +4,12 @@ location: 'blog'
 ---
 
 <div class="posts">
+  {% if site.posts.size == 0 %}
+    <h1> Please wait! </h1>
+    <p>
+      I'm still populating this section! It will be full soon.
+    </p>
+  {% endif %}
   {% for post in paginator.posts %}
     <article class="post">
 
