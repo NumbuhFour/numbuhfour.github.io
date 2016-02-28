@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Stuff Incoming!
+category: blog
 ---
 
 After not having access to my wordpress blog for about 2 weeks due to both my forgetfullness and stubornness, a lot of things have built up. Many projects have picked those particular weeks to show their faces so hopefully I can talk about some of those things.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Physical Media Project2
+category: blog
 ---
 
 ![Final result]({{ site.baseurl }}/images/phys2/final1.jpg)

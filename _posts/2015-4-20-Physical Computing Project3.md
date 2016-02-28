@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Physical Computing&#58; Project3 Writeup
+category: blog
 ---
 
 Premise: Using an arduino, build a simple interactive machine that somehow involves audio whether that is input or output. This was a significanlty smaller project than the last one, and my idea was to detect notes made by whistling.

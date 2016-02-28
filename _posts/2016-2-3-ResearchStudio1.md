@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Research Studio - Week 1
+category: blog
 ---
 
 This semester I am taking an odd course since it amounts to basically working for the studio that is inside RIT.

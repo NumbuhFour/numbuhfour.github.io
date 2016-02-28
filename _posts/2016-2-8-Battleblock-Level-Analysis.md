@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Battleblock Theater Analysis
+category: blog
 ---
 
 I'm currently in a course which analyzes level design in video games. For our first few weeks, we were told to pick a level in a game and pry it apart.

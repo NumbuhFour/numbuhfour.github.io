@@ -212,10 +212,13 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  clear: left;
+  float: none;
+  display: block;
+  margin-top: 83px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 22px;
+  text-align: center;
 
   @include mobile {
     float: none;
@@ -230,11 +233,20 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    padding: 5px;
 
     @include mobile {
       margin: 0 10px;
       color: $blue;
     }
+  }
+  a:hover {
+    color: $darkGray;
+    background: $lightGray;
+  }
+
+  .location {
+    border: 1px solid black;
   }
 }
 

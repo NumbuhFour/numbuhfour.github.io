@@ -1,0 +1,15 @@
+---
+layout: default
+permalink: /experiments/
+location: 'experiments'
+---
+
+<div class="posts">
+  {% for post in site.projects %}
+    <article class="post">
+      <div class="entry">
+        {{ post.title }}
+      </div>
+    </article>
+  {% endfor %}
+</div>

@@ -29,8 +29,26 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            {% if page.location == 'blog' %}
+              <a href="{{ site.baseurl }}/" class="location">Blog</a>
+            {% else %}
+              <a href="{{ site.baseurl }}/">Blog</a>
+            {% endif %}
+            {% if page.location == 'projects' %}
+              <a href="{{ site.baseurl }}/projects" class="location">Projects</a>
+            {% else %}
+              <a href="{{ site.baseurl }}/projects">Projects</a>
+            {% endif %}
+            {% if page.location == 'experiments' %}
+              <a href="{{ site.baseurl }}/experiments" class="location">Experiments</a>
+            {% else %}
+              <a href="{{ site.baseurl }}/experiments">Experiments</a>
+            {% endif %}
+            {% if page.location == 'about' %}
+              <a href="{{ site.baseurl }}/about" class="location">About</a>
+            {% else %}
+              <a href="{{ site.baseurl }}/about">About</a>
+            {% endif %}
           </nav>
         </header>
       </div>
@@ -39,7 +57,7 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-	
+
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">

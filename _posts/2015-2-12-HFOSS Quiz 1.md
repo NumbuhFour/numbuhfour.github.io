@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HFOSS Quiz #1
+category: blog
 ---
 
 This is a post answering questions for a class I’m taking. Not much more to say besides that.
@@ -13,7 +14,7 @@ In Chapter 3 of Stephen Weber’s The Success of Open Source, there was a listin
 	+	Rapid Prototyping
 	+	Meritocracy
 	+	Community
-	
+
 2.	*What are the titles of each General Principle?*
 	+	Make it Interesting and Make Sure it Happens
 	+	Scratch an Itch
@@ -23,7 +24,7 @@ In Chapter 3 of Stephen Weber’s The Success of Open Source, there was a listin
 	+	Document What You Do
 	+	Release Early and Release Often
 	+	Talk a Lot
-	
+
 3.	*What are the similarities between Weber’s eight principles, and the five pillars?*
 	They both believe that the key to open source is making things open and accessible to anyone who wants to contribute.
 

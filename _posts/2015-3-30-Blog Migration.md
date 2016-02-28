@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Blog Migration
+category: blog
 ---
 
 So I've decided to jump ship from Wordpress to Github Pages as a blog after discovering [Jekyll](http://jekyllrb.com/)... and losing access to [my old blog](http://numbuhfour.wordpress.com/).
