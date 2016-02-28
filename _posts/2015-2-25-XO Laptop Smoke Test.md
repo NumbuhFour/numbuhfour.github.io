@@ -1,6 +1,7 @@
 ---
 layout: post
 title: XO Laptop Smoke Test
+category: blog
 ---
 So for my HFOSS course, we were given XO laptops. I’m not sure why yet, but it sure is cool.
 

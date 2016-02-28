@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hecklebot
+category: blog
 ---
 
 ### [Check out Hecklebot on Github](https://github.com/fad4470/Hecklebot)

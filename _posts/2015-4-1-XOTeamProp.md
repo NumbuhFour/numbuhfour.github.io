@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HFOSS- Education Project Team Proposal
+category: blog
 date: 2015-4-1 11:30:00 +04:00
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Physical Computing&#58; Project1 Writeup
+category: blog
 ---
 
 Experience taxonomy writeup [here]({{ site.baseurl }}/PhysProj1UX/)

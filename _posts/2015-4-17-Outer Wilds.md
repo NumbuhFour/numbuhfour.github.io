@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Outer Wilds
+category: blog
 ---
 
 I recently heard about and played a game called Outer Wilds. It's a free-to-play title described as an open-world adventure in space and it has already become one of my favorite games for how well it's designed its experience.
