@@ -109,6 +109,8 @@ strong, b {
 
 img {
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -353,6 +355,22 @@ footer {
 	display: block;
 }
 
+// For projects and experiments pages
+.previewImg {
+  display: block;
+  padding: 5px;
+  background: $darkGray;
+  width: 130px;
+  height: 130px;
+}
+.post:nth-child(even) .previewImg{
+  float: right;
+  margin-left: 50px;
+}
+.post:nth-child(odd) .previewImg{
+  float:left;
+  margin-right: 50px;
+}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
