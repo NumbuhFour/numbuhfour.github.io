@@ -93,6 +93,7 @@ defaults:
       layout: project
       hidden: true
       location: 'projects'
+      preview: /placeholder_preview.png
   -
     scope:
       path: "experiments"
@@ -100,6 +101,7 @@ defaults:
       layout: project
       hidden: true
       location: 'experiments'
+      expandable: false
   -
     scope:
       path: ""

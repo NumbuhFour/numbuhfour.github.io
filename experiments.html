@@ -12,14 +12,26 @@ location: 'experiments'
     </p>
   {% endif %}
   {% for post in site.experiments reversed %}
-    <article class="post">
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <article class="post experiments">
+
+        {% if post.expandable %}
+          <a href="{{ site.baseurl }}{{ post.url }}">
+        {% endif %}
+
+        <span class='title'><h1>{{ post.title }}</h1></span>
 
         <div class="entry">
           {{ post.excerpt }}
         </div>
 
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        {% if post.expandable %}
+          <span class='read-more'> Expand </span>
+          </a>
+        {% endif %}
+        <span class="tags">
+          Tags:
+          {{ post.tags | lower | sort | join:', '}}
+        </span>
     </article>
   {% endfor %}
 </div>
