@@ -54,6 +54,9 @@ h1 {
 
 h2 {
   font-size: 24px;
+  a {
+    color: inherit;
+  }
 }
 
 h3 {
@@ -421,6 +424,18 @@ footer {
 }
 .experiments .tags {
   font-size: 60%;
+}
+
+.page_description {
+  text-align:justify;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+.bigger {
+  font-size: 45px;
 }
 
 
