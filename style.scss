@@ -381,6 +381,8 @@ footer {
   color: $darkGray;
   margin-top: 8px;
   margin-bottom: 0px;
+  height: 80px;
+  max-height: 80px;
 }
 .experiments h1 {
   float: left;
@@ -394,9 +396,6 @@ footer {
   height: 100px;
   line-height: 1.2em;
   vertical-align: middle;
-}
-.experiments .post {
-  height: 80px;
 }
 .experiments .read-more {
 
