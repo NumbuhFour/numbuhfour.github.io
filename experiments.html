@@ -11,7 +11,7 @@ location: 'experiments'
       I'm still populating this section! It will be full soon.
     </p>
   {% endif %}
-  {% for post in site.experiments %}
+  {% for post in site.experiments reversed %}
     <article class="post">
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 

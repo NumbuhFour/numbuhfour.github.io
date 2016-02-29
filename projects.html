@@ -11,8 +11,15 @@ location: 'projects'
       I'm still populating this section! It will be full soon.
     </p>
   {% endif %}
-  {% for post in site.projects %}
+  {% for post in site.projects reversed %}
     <article class="post">
+
+        {% if post.preview %}
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <img src="/images/projects{{ post.preview }}" class="previewImg"/>
+          </a>
+        {% endif %}
+        
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
         <div class="entry">
