@@ -54,6 +54,9 @@ h1 {
 
 h2 {
   font-size: 24px;
+  a {
+    color: inherit;
+  }
 }
 
 h3 {
@@ -109,6 +112,8 @@ strong, b {
 
 img {
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -306,6 +311,131 @@ footer {
   font-size: 80%;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+// Project Image Galleries
+.gallery {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow-x: auto;
+  background: $lightGray;
+  text-align: center;
+  img {
+    display:inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+// For projects and experiments pages
+.previewImg {
+  display: block;
+  padding: 5px;
+  background: $darkGray;
+  width: 130px;
+  height: 130px;
+}
+.post:nth-child(even) .previewImg{
+  float: right;
+  margin-left: 50px;
+}
+.post:nth-child(odd) .previewImg{
+  float:left;
+  margin-right: 50px;
+}
+
+.experiments {
+  position: relative;
+  font-size: 100%;
+  padding-bottom: 8px !important;
+}
+.experiments .entry {
+  color: $darkGray;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  height: 80px;
+  max-height: 80px;
+}
+.experiments h1 {
+  float: left;
+  clear:left;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 10px;
+  padding-right: 30px;
+  border-right: 2px solid $darkGray;
+  width: 200px;
+  height: 100px;
+  line-height: 1.2em;
+  vertical-align: middle;
+}
+.experiments .read-more {
+
+  -ms-transform:rotate(270deg); /* IE 9 */
+  -moz-transform:rotate(270deg); /* Firefox */
+  -webkit-transform:rotate(270deg); /* Safari and Chrome */
+  -o-transform:rotate(270deg); /* Opera */
+
+  position:absolute;
+  top: 30px;
+  left: 155px;
+  //text-align: left;
+  //display:inline;
+  //float:right;
+  //clear:both;
+  margin-bottom:0px;
+  margin-top: 0px;
+  //display:inline;
+  color: $midLightGray;
+}
+.experiments .read-more:hover {
+  color: $blue;
+}
+.experiments .tags {
+  font-size: 60%;
+}
+
+.page_description {
+  text-align:justify;
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
+.bigger {
+  font-size: 45px;
 }
 
 

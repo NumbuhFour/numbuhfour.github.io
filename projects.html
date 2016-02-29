@@ -3,7 +3,12 @@ layout: default
 permalink: /projects/
 location: 'projects'
 ---
-
+<h1 class='center'> - Projects - </h1>
+<p class="page_description">
+  This is a running list of the bigger projects I've done either for a class or just personally in my own time.
+  They cover a wide variety of subjects though are all technology-related.
+</p>
+<br />
 <div class="posts">
   {% if site.projects.size == 0 %}
     <h1> Please wait! </h1>
@@ -11,9 +16,16 @@ location: 'projects'
       I'm still populating this section! It will be full soon.
     </p>
   {% endif %}
-  {% for post in site.projects %}
-    <article class="post">
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  {% for post in site.projects reversed %}
+    <article class="post project">
+
+        {% if post.preview %}
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            <img src="/images/projects{{ post.preview }}" class="previewImg"/>
+          </a>
+        {% endif %}
+
+        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
         <div class="entry">
           {{ post.excerpt }}
@@ -23,3 +35,9 @@ location: 'projects'
     </article>
   {% endfor %}
 </div>
+
+<br />
+<h2> More still Incoming! </h2>
+<p>
+  I have a long list of experiments, I just need to write them up!
+</p>
