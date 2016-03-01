@@ -18,26 +18,40 @@ location: 'experiments'
     </p>
   {% endif %}
   {% for post in site.experiments reversed %}
-    <article class="post experiments">
 
-        {% if post.expandable %}
-          <a href="{{ site.baseurl }}{{ post.url }}">
-        {% endif %}
+    {% if post.link %}
+      {% assign link = post.link %}
+    {% else %}
+      {% assign link = post.url %}
+    {% endif %}
 
-        <span class='title'><h1>{{ post.title }}</h1></span>
+    <article class="post experiments" id="{{ post.title | slugify}}">
+      {% if post.link %}
+        {% assign link = post.link %}
+      {% elsif post.expandable %}
+        {% assign link = post.url %}
+      {% else %}
+        {% assign link = false %}
+      {% endif %}
 
-        <div class="entry">
-          {{ post.excerpt }}
-        </div>
+      {% if link %}
+        <a href="{{ site.baseurl }}{{ link }}">
+      {% endif %}
 
-        {% if post.expandable %}
-          <span class='read-more'> Expand </span>
-          </a>
-        {% endif %}
-        <span class="tags">
-          Tags:
-          {{ post.tags | lower | sort | join:', '}}
-        </span>
+      <span class='title'><h1>{{ post.title }}</h1></span>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      {% if link %}
+        <span class='read-more'> Expand </span>
+        </a>
+      {% endif %}
+      <span class="tags">
+        Tags:
+        {{ post.tags | lower | sort | join:', '}}
+      </span>
     </article>
   {% endfor %}
 </div>

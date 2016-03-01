@@ -19,19 +19,25 @@ location: 'projects'
   {% for post in site.projects reversed %}
     <article class="post project">
 
+        {% if post.link %}
+          {% assign link = post.link %}
+        {% else %}
+          {% assign link = post.url %}
+        {% endif %}
+
         {% if post.preview %}
-          <a href="{{ site.baseurl }}{{ post.url }}">
+            <a href="{{ site.baseurl }}{{ link }}">
             <img src="/images/projects{{ post.preview }}" class="previewImg"/>
           </a>
         {% endif %}
 
-        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <h2><a href="{{ site.baseurl }}{{ link }}">{{ post.title }}</a></h2>
 
         <div class="entry">
           {{ post.excerpt }}
         </div>
 
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        <a href="{{ site.baseurl }}{{ link }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 </div>
