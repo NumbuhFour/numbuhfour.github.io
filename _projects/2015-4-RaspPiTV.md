@@ -1,5 +1,5 @@
 ---
-title:
+title: RaspPi TV
 excerpt: A welcoming webpage for my living room TV with IR communication to my watch and music control.
 #preview:
 tags:
