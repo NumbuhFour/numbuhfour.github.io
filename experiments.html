@@ -18,9 +18,24 @@ location: 'experiments'
     </p>
   {% endif %}
   {% for post in site.experiments reversed %}
+
+    {% if post.link %}
+      {% assign link = post.link %}
+    {% else %}
+      {% assign link = post.url %}
+    {% endif %}
+
     <article class="post experiments" id="{{ post.title | slugify}}">
-      {% if post.expandable %}
-        <a href="{{ site.baseurl }}{{ post.url }}">
+      {% if post.link %}
+        {% assign link = post.link %}
+      {% elsif post.expandable %}
+        {% assign link = post.url %}
+      {% else %}
+        {% assign link = false %}
+      {% endif %}
+
+      {% if link %}
+        <a href="{{ site.baseurl }}{{ link }}">
       {% endif %}
 
       <span class='title'><h1>{{ post.title }}</h1></span>
@@ -29,7 +44,7 @@ location: 'experiments'
         {{ post.excerpt }}
       </div>
 
-      {% if post.expandable %}
+      {% if link %}
         <span class='read-more'> Expand </span>
         </a>
       {% endif %}
