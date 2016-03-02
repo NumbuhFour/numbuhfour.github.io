@@ -294,6 +294,7 @@ nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+  clear: both;
 }
 
 footer {
@@ -385,7 +386,12 @@ footer {
   margin-top: 8px;
   margin-bottom: 0px;
   height: 80px;
-  max-height: 80px;
+  //max-height: 80px;
+
+  @include mobile {
+    height: 80px;
+    margin-bottom: 45px;
+  }
 }
 .experiments h1 {
   float: left;
@@ -396,28 +402,36 @@ footer {
   padding-right: 30px;
   border-right: 2px solid $darkGray;
   width: 200px;
-  height: 100px;
+  min-height: 100px;
   line-height: 1.2em;
   vertical-align: middle;
+  @include mobile {
+    float: none;
+    min-height: 60px;
+    width: 100%;
+    font-size: 25px;
+    border-bottom: 2px solid $darkGray;
+  }
 }
 .experiments .read-more {
-
-  -ms-transform:rotate(270deg); /* IE 9 */
-  -moz-transform:rotate(270deg); /* Firefox */
-  -webkit-transform:rotate(270deg); /* Safari and Chrome */
-  -o-transform:rotate(270deg); /* Opera */
-
+  display: inline-block;
   position:absolute;
-  top: 30px;
-  left: 155px;
-  //text-align: left;
-  //display:inline;
-  //float:right;
-  //clear:both;
+  @include desktop {
+    -ms-transform:rotate(270deg); /* IE 9 */
+    -moz-transform:rotate(270deg); /* Firefox */
+    -webkit-transform:rotate(270deg); /* Safari and Chrome */
+    -o-transform:rotate(270deg); /* Opera */
+    top: 30px;
+    left: 155px;
+  }
   margin-bottom:0px;
   margin-top: 0px;
-  //display:inline;
   color: $midLightGray;
+  @include mobile {
+    right: 10px;
+    top: 35px;
+  }
+  clear: both;
 }
 .experiments .read-more:hover {
   color: $blue;
@@ -438,6 +452,18 @@ footer {
   font-size: 45px;
 }
 
+@include desktop {
+  .leftColumn {
+    float: left;
+    width: 40%;
+    display: inline;
+  }
+  .rightColumn {
+    float: right;
+    width: 40%;
+    display:inline;
+  }
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
