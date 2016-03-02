@@ -27,3 +27,36 @@ So far this has included:
 Email: [fad4470@rit.edu](mailto:fad4470@rit.edu)
 
 Resume: [view here]({{ site.baseurl }}/resume/) or [download PDF]({{ site.baseurl }}/downloads/resume.pdf)
+
+<div class="columnContainer">
+  <div class="leftColumn">
+    <h3> Tools I am Familiar With </h3>
+    <ul>
+      <li> Unity3D </li>
+      <li> Blender </li>
+      <li> Gimp </li>
+      <li> Autodesk 3DS Max </li>
+      <li> Autodesk Maya </li>
+      <li> Git </li>
+      <li> SVN </li>
+      <li> the Unix Environment </li>
+      <li> Node.js </li>
+      <li> Android SDK </li>
+      <li> OpenGL </li>
+      <li> DirectX11 </li>
+    </ul>
+  </div>
+  <div class="rightColumn">
+    <h3> Languages I am Familiar With </h3>
+    <ul>
+      <li> C# </li>
+      <li> C++ </li>
+      <li> Java </li>
+      <li> Python </li>
+      <li> Lua </li>
+      <li> Javascript </li>
+      <li> HTML </li>
+      <li> CSS </li>
+    </ul>
+  </div>
+</div>

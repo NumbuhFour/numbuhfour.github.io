@@ -1,7 +1,7 @@
 ---
 title: ReallyMake App
 excerpt: An application for throwing and glazing pottery on your phone!
-#preview: /preview.png
+preview: /reallymake.png
 link: /blog/posts/AndroidSummer
 tags:
   - Android
