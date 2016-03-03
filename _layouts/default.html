@@ -15,6 +15,10 @@
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 
 	<link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico">
+
+  {% if page.layout == 'project' and page.link %}
+  <META http-equiv="refresh" content="0;URL={{ site.baseurl }}{{ page.link }}">
+  {% endif %}
   </head>
 
   <body>
