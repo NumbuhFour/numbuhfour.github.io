@@ -380,33 +380,38 @@ footer {
   position: relative;
   font-size: 100%;
   padding-bottom: 8px !important;
+  height: auto;
 }
 .experiments .entry {
   color: $darkGray;
   margin-top: 8px;
   margin-bottom: 0px;
-  height: 80px;
+  min-height: 80px;
+  height: auto;
   //max-height: 80px;
 
   @include mobile {
-    height: 80px;
-    margin-bottom: 45px;
+    min-height: 80px;
+    margin-bottom: 25px;
   }
 }
 .experiments h1 {
-  float: left;
-  clear:left;
+  @include desktop {
+    position: absolute;
+    left: 0;
+  }
   margin-bottom: 0px;
   margin-top: 0px;
   margin-right: 10px;
   padding-right: 30px;
   border-right: 2px solid $darkGray;
   width: 200px;
-  min-height: 100px;
+  height: 100%;
   line-height: 1.2em;
   vertical-align: middle;
   @include mobile {
     float: none;
+    height: 60px;
     min-height: 60px;
     width: 100%;
     font-size: 25px;
@@ -438,6 +443,15 @@ footer {
 }
 .experiments .tags {
   font-size: 60%;
+}
+.experiments .content {
+  @include desktop {
+    position: relative;
+    left: 220px
+  }
+  @include mobile {
+    top: 70px;
+  }
 }
 
 .page_description {
