@@ -9,6 +9,7 @@ tags:
   - Python
   - C++
   - Graphics
+  - Dropped
 ---
 
 {% include gallery.html id="pipboy" path="/images/projects/pipboy" files="pipboy.png, pipboy_apps.png, pipboy_touch.png, pipboy_settings.png" %}
