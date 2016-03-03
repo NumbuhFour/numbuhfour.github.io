@@ -36,22 +36,32 @@ location: 'experiments'
 
       {% if link %}
         <a href="{{ site.baseurl }}{{ link }}">
+        <span class='read-more'> Expand </span>
       {% endif %}
 
       <span class='title'><h1>{{ post.title }}</h1></span>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
       {% if link %}
-        <span class='read-more'> Expand </span>
         </a>
       {% endif %}
-      <span class="tags">
-        Tags:
-        {{ post.tags | lower | sort | join:', '}}
-      </span>
+
+      <div class="content">
+        {% if link %}
+          <a href="{{ site.baseurl }}{{ link }}">
+        {% endif %}
+
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+
+        {% if link %}
+          </a>
+        {% endif %}
+        <div class="tags">
+          Tags:
+          {{ post.tags | lower | sort | join:', '}}
+        </div>
+      </div>
     </article>
   {% endfor %}
 </div>
@@ -59,5 +69,5 @@ location: 'experiments'
 <br />
 <h2> More still Incoming! </h2>
 <p>
-  I have a long list of experiments, I just need to write them up!
+  I have a long list of experiments, I just need to write them up! Currently {{ 24 | minus: site.experiments.size }} in the backlog!
 </p>
