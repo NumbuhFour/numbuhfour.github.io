@@ -9,3 +9,5 @@ tags:
   - Blender
   - ABS
 ---
+
+{% include gallery.html path="/images/printing/symbols" files="symbols_all.jpg, symbols_1.jpg, symbols_2.jpg, symbols_3.jpg" %}
