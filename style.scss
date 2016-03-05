@@ -388,6 +388,12 @@ footer {
   margin-bottom: 0px;
   min-height: 80px;
   height: auto;
+
+  @include desktop {
+    width: -webkit-calc(100% - 210px);
+    width:    -moz-calc(100% - 210px);
+    width:         calc(100% - 210px);
+  }
   //max-height: 80px;
 
   @include mobile {
@@ -404,6 +410,7 @@ footer {
   margin-top: 0px;
   margin-right: 10px;
   padding-right: 30px;
+  padding-bottom: 100px;
   border-right: 2px solid $darkGray;
   width: 200px;
   height: 100%;
@@ -445,6 +452,7 @@ footer {
   font-size: 60%;
 }
 .experiments .content {
+  text-align:justify;
   @include desktop {
     position: relative;
     left: 220px
