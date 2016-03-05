@@ -1,6 +1,6 @@
 ---
 title: 3DPrinted GoI Badges
-excerpt: A set of badges modelled, printed, and painted. Based on symbols from a <a href="gunsoficarus">Guns of Icarus</a>
+excerpt: A set of badges modelled, printed, and painted. Based on symbols from a <a href="http://gunsoficarus.com/">Guns of Icarus</a>
 expandable: true
 tags:
   - Experiment

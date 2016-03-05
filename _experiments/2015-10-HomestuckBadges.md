@@ -1,6 +1,6 @@
 ---
 title: 3DPrinted Homestuck Badges
-excerpt: A series of printed and painted logos from the comic <a href="mspaintadventures.com">Homestuck</a>
+excerpt: A series of printed and painted logos from the comic <a href="http://mspaintadventures.com">Homestuck</a>
 expandable: true
 tags:
   - Experiment
