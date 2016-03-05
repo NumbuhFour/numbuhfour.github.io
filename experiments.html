@@ -35,33 +35,26 @@ location: 'experiments'
       {% endif %}
 
       {% if link %}
-        <a href="{{ site.baseurl }}{{ link }}">
+        <a href="{{ site.baseurl }}{{ link }}" class="expandLink">
         <span class='read-more'> Expand </span>
       {% endif %}
 
       <span class='title'><h1>{{ post.title }}</h1></span>
 
-      {% if link %}
-        </a>
-      {% endif %}
-
       <div class="content">
-        {% if link %}
-          <a href="{{ site.baseurl }}{{ link }}">
-        {% endif %}
 
         <div class="entry">
           {{ post.excerpt }}
         </div>
-
-        {% if link %}
-          </a>
-        {% endif %}
         <div class="tags">
           Tags:
           {{ post.tags | lower | sort | join:', '}}
         </div>
       </div>
+
+      {% if link %}
+        </a>
+      {% endif %}
     </article>
   {% endfor %}
 </div>
