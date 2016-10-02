@@ -23,7 +23,7 @@ This post will serve as a reminder to myself for all the commands I find most us
 | ' ' | Jump back after jumping to mark |
 | ` . | Jump to location of last edit |
 | :vsp [file] | Open file in new tab, but split the tab vertically |
-| CTRL + w | Go to other file within this tab |
+| CTRL + w CTRL + w | Go to other file within this tab |
 | :e . | Open current directory, which lets you explore files |
 | :![command] | Run a command in the shell |
 | :map [key] [command] | Bind a key to an action, useful for building. Ex: `:map <F5> :!node test<CR>` |
