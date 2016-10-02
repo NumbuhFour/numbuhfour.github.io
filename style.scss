@@ -490,6 +490,29 @@ footer {
   }
 }
 
+table {
+  min-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+th {
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+}
+
+th {
+  background-color: $white;
+}
+tr:nth-child(odd) {
+  background-color: $lightGray;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
