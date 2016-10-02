@@ -76,6 +76,9 @@ gems:
 paginate: 6
 paginate_path: "/blog/pages/:num/"
 
+# Line separating the excerpt from the 'read more'
+excerpt_separator: "<!-READMORE->"
+
 # Exclude these files from your production _site
 exclude:
     - Gemfile
