@@ -5,6 +5,8 @@ category: blog
 ---
 [Go here for now!](https://docs.google.com/a/g.rit.edu/document/d/1VVLGsOXvxpiZzMgxpCvE5RDQXas2C3uBjEe1OwFZufM/edit)
 
+<!-READMORE->
+
 Personal answers:
 
 Is this the kind of structure you would enjoy working in? Why or why not?

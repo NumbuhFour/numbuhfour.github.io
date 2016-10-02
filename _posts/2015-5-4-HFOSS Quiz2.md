@@ -5,6 +5,8 @@ title: HFOSS Quiz2
 
 This is my response to a quiz given for my HFOSS class on the topic of open-source licensing.
 
+<!-READMORE->
+
 ### In the first 3 Chapters of the SFLC's FOSS Legal Primer, there was much background information on the types of licenses a FOSS Developer may choose, and why.
  
  - When does a work become "copyrighted" by an Author?

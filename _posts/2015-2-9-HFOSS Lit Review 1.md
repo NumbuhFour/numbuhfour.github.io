@@ -6,6 +6,8 @@ category: blog
 
 This is a literature review of What Is Open Source by Steve Weber.
 
+<!-READMORE->
+
 It tells a brief history of open source software, how it started and how it has developed. It talks about how important it is to the creation of things that everyone who experiences a thing should have an unburdened means of improving that thing because everyone has the potential to see a different problem or have better solutions.
 
 The Good:

@@ -11,6 +11,8 @@ A interactive experience built into a glove. Using an array of neopixels, a vibr
 
 It was a pretty simple and not very useful idea, but I wanted to get away from utility for this project and just make an experience.
 
+<!-READMORE->
+
 ### Building
 
 I planned this out in two parts. A watch-like container and the glove.

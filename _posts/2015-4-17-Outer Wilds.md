@@ -6,6 +6,8 @@ category: blog
 
 I recently heard about and played a game called Outer Wilds. It's a free-to-play title described as an open-world adventure in space and it has already become one of my favorite games for how well it's designed its experience.
 
+<!-READMORE->
+
 # Warning: This game does not deserve to have a single piece of it spoiled. Do not read before playing, it's not a long game
 
 The game didn't seem all that great at first. With sub-par graphics and a oddly small starting world, it didn't look like something I was going to spend a lot of time enjoying. The first  task asked of me was to go retrieve a launch code, which was a simple first task. Sometimes games give you something easy to force you to learn the ropes and explore a bit, and this was exactly what this quest did. I walked around, talked to some village people, did the tutorials, and went to the museum where the launch code waited. The museum was interesting, it detailed this world's history and it's discoveries. It told of creatures they saw, artifacts they found, and some space-related scientific theories that matched our own like how the sun is expected to one day explode. Even after I got in my first space ship, I didn't think it was great. And then, out of nowhere, while exploring the comet that circled around the solar system, there was a flash of red and I died.

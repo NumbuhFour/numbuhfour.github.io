@@ -5,6 +5,8 @@ title: Lilywatch Part3&#58; Computers and Code
 
 This is a continuation of my previous posts regarding the Lilywatch: A watch built using an Arduino. This post goes over the programming and computer aspects of the device.
 
+<!-READMORE->
+
 ## Computers and Code
 
 ### Arduino

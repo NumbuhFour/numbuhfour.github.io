@@ -6,6 +6,8 @@ category: blog
 
 This is a post answering questions for a class I’m taking. Not much more to say besides that.
 
+<!-READMORE->
+
 In Chapter 3 of Stephen Weber’s The Success of Open Source, there was a listing of eight “General Principles” contained within the chapter. Last week, we discussed in class the five pillars of “The Open Source Way.”
 
 1.	*What are the titles of each Pillar?*

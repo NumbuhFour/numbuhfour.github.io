@@ -5,6 +5,8 @@ title: Summer with Android
 
 This last summer I was hired as a intern programmer to work on an app called [ReallyMake](https://play.google.com/store/apps/details?id=com.reallymake.android.pottery&hl=en). It is an app that lets you throw, sculpt, and paint pottery on your phone as though you were at a potters wheel. It also has some cool features like viewing the pot in augmented reality and sending the the model to be 3D printed.
 
+<!-READMORE->
+
 I was hired on sort of halfway through the project as I understand it. It had a lot of the core functionality out of the way, but they wanted someone to help with the graphical side of things in OpenGL, namely shaders. It was interesting working with graphics in the restrictions of mobile devices. It became even more interesting when I was asked to find the reasons for the different outputs with different devices. It was an issue rendering the texture on some older devices and the only thing I could surmise to be the problem was that some devices had a significantly smaller amount of memory on the GPU.
 I can't imagine how big companies handle this sort of thing. There are hundreds of different android devices with different internals, so the possible problems are endless. The company I worked for was rather small, and almost all the code was written in-house for this project, so no large libraries to handle the funny things with android. The only thing we did use was something called the [Nasa Worldwind](http://worldwind.arc.nasa.gov/java/) API, which was used to build and render the meshes for the pots in OpenGL. Though from what I understand it is primarily targeted at non-mobile systems.
 

@@ -6,6 +6,8 @@ category: blog
 
 This is a brief list of possible ideas for the HFOSS Curriculum project, where the students team up and attempt to create and educational game for students grade 4 and under using an XO laptop.
 
+<!-READMORE->
+
 ### Interesting units:
 Algebraic thinking with variables, geometry, and data representation.
 ### Dull units:

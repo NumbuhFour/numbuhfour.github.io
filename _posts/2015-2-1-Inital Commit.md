@@ -5,6 +5,8 @@ category: blog
 ---
 So, with a lack of any real idea of what to say, I guess this will just be a log of all the things I do and create. I already do that but in two-word bullet points in a .txt file, so now it's gonna be at least three words per bullet point.
 
+<!-READMORE->
+
 So, week of Jan 25th, 2015:
 
 I decided I was gonna start following a "Don't break the chain" ideology. I gotta work on a game for some amount every day without exception, getting a little better each day.
