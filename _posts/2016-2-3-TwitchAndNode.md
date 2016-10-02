@@ -5,7 +5,7 @@ title: Heroku, Node.js, and Twitch.tv
 
 This last summer, I spent my free time learning how to use Node.js for a variety of small projects with friends: A Node.js website on [Heroku](##), a javascript Twitch bot, and a combination Twitch streamer overlay and webpage in Unity3D.
 
-<!-READMORE->
+<!--READMORE-->
 
 The Heroku website was a utility for Twitch users to find games based on a streamer to viewer ratio so streamers could find games that they could stream to possibly get more viewers. It was an idea by a friend of mine (the same one I made [Hecklebot](##) for). It was also my introduction to Heroku as a platform, since we needed to find a way to host it. In my experience, it was a really strong tool for development. It allowed seamless git integration, free hosting for a max 18 hours a day, and quick-setup for a lot of 3rd-party tools like MongoDB.
 The website itself started strong, I managed to get a lot of the core functionality done using Twitch's API. I designed the core in an API sort of structure itself for a couple of reasons. First of all, I didn't know how the website itself should access the data. I was thinking of having the webpages that need info grabbing data from the server after loading rather than having the server contruct webpages for each request. That way the page could refresh its data without being refreshed. Secondly, I sort of wanted it to be open if for whatever reason I or anyone else wanted to access the sorted data remotely. I doubted it would ever get that big, but it was a fun structure to design.

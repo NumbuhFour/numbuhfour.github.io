@@ -6,7 +6,7 @@ category: blog
 
 Premise: Using an arduino, build a simple interactive machine that somehow involves audio whether that is input or output. This was a significanlty smaller project than the last one, and my idea was to detect notes made by whistling.
 
-<!-READMORE->
+<!--READMORE-->
 
 However, through experimentation, that goal changed to detecting notes made by an instrument. Instruments can make a much more consistent and clean noise compared to whistling via mouth, making detection easier.
 

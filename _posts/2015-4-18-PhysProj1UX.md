@@ -7,7 +7,7 @@ category: blog
 This is a writeup for my [Physical Media Project 1]( {{ site.baseurl }}/Physical%20Computing%20Project1/) describing the taxonomies of the experience I intended to create. 
 Since it was such a small project, this writeup will be equally small as there were not a lot of intended emotions beyond curiosity.
 
-<!-READMORE->
+<!--READMORE-->
 
 ### Approaching 
 ---

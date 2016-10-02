@@ -7,7 +7,7 @@ date: 2015-4-1 11:30:00 +04:00
 
 A team proposal for the creation of an educational game built on the OLPC XO laptops and Sugar Labs
 
-<!-READMORE->
+<!--READMORE-->
 
 ### List Your Other Team Members Below:
 

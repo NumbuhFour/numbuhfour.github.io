@@ -10,7 +10,7 @@ A watch powered by a removable [Lilypad arduino](http://lilypadarduino.org/) and
 
 ![1 overview pic]({{ site.baseurl }}/images/lilywatch/1_overview.jpg)
 
-<!-READMORE->
+<!--READMORE-->
 
 This was a project I started for my Physical Media class that went way off course. The original premise was to make a small device that communicates with another device to create an interesting experience, but I quickly got distracted and made a watch instead (I made an 'experience' app for it too). 
 

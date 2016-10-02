@@ -6,7 +6,7 @@ category: blog
 
 For a course I'm in, we've been covering the topic of behaviour trees for AI in games. They are quite an interesting topic, and I was excited to implement them. However, I was disappointed to find all the most popular behaviour tree implementations in Unity3D cost >$60, which I was unwilling to pay. My professor also felt the same way, as he couldn't find any free implementations either.
 
-<!-READMORE->
+<!--READMORE-->
 
 So, as I was preparing to make my own implementation, I came across a slightly less popular behaviour tree implementation called [RAIN](http://rivaltheory.com/rain/). At first I was relieved. Before that discovery I was getting ready to write a whole UI, which is no small task. I also found that this tool was used in some titles that I had heard of, namely [SUPERHOT](http://superhotgame.com/) and [Among the Sleep](http://www.krillbite.com/ats/), so I thought it was going to be great. But unfortunately after working with it, I came up with far more problems than progress. 
 

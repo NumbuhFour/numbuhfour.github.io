@@ -6,7 +6,7 @@ category: blog
 
 I recently heard about and played a game called Outer Wilds. It's a free-to-play title described as an open-world adventure in space and it has already become one of my favorite games for how well it's designed its experience.
 
-<!-READMORE->
+<!--READMORE-->
 
 # Warning: This game does not deserve to have a single piece of it spoiled. Do not read before playing, it's not a long game
 

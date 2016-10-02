@@ -6,7 +6,7 @@ category: blog
 
 *COMMARCH TEAM PROPOSAL*
 
-<!-READMORE->
+<!--READMORE-->
 3/4/2015
 | Nick | Email |	
 | -------------- | --------------- |

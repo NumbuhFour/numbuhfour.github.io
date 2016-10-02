@@ -8,7 +8,7 @@ Experience taxonomy writeup [here]({{ site.baseurl }}/PhysProj1UX/)
 
 Premise: Using an arduino, build a simple interactive machine that utilizes a minimum of three sensors. My project idea was to create a character with two RGB LEDs for eyes. The sensors I used were a ultrasonic rangefinder, accelerometer, a bluetooth radio, and a potentiometer (just to dim the LEDs).
 
-<!-READMORE->
+<!--READMORE-->
 
 The character, nicknamed Fido, interacts by showing its current emotion with the color of its eyes. Green means happy, red means mad, and white means bored.
 

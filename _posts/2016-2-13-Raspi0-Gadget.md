@@ -6,7 +6,7 @@ category: blog
 
 So I just got a [RaspberryPi Zero](#) in the mail a few days ago, and found a way to turn it into a plug-and-play flash drive and computer combo, using just one OTG cable for both power and data. Its a real neat trick I picked up from [this blog post](http://pi.gbaman.info/?p=699), but I took it just a slight step forward.
 
-<!-READMORE->
+<!--READMORE-->
 
 ## features
 

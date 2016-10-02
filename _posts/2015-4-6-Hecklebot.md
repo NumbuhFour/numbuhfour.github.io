@@ -8,7 +8,7 @@ category: blog
 
 For a little while on and off (mostly off) I've been working on a small project called Hecklebot for a friend of mine. It's an IRC bot written in python meant to monitor and play some games for a [MisterAtomBomb](http://misteratombomb.com/) who recently picked up video game streaming on [Twitch](http://twitch.tv). Keep in mind he didn't ask for this, my motivation was mostly just boredom instead.
 
-<!-READMORE->
+<!--READMORE-->
 
 To preface, MisterAtomBomb's "tagline" of sorts used to be 'come by and heckle me.' So in the spirit of that, Hecklebot's original function was just randomly spitting out not-very-insulting insults, kinda just fun ones for the sake of laughs, nothing truely mean-spirited. And since it was so small and because it was my first project in python, it was originally written all in one file. That quickly became a problem, but I fixed that despite needing to get used to pythons foreign-to-me variable scoping (specifically requiring self., which got annoying)
 

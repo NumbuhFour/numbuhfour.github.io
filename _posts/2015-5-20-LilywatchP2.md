@@ -5,7 +5,7 @@ title: Lilywatch Part2&#58; The Build
 
 This is a continuation of my previous posts regarding the Lilywatch: A watch built using an Arduino. This post goes over the building of the watch itself.
 
-<!-READMORE->
+<!--READMORE-->
 
 ## Process
 
