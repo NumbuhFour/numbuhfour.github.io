@@ -16,12 +16,12 @@ location: 'blog'
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {% assign split = post.content | split:'\n\n' %}
-        {% assign excerpt = split[0] %}
         {{ post.excerpt }}
       </div>
 
+      {% if post.excerpt.size != post.content.size %}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      {% endif %}
     </article>
   {% endfor %}
 </div>
