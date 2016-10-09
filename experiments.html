@@ -9,7 +9,25 @@ location: 'experiments'
   This is a large list of the things I've tinkered with or attempted to make in my spare time. Some were meant to be big projects that fizzled for whatever reason. Others are just small experiments to learn the nature of some tool or test an idea. They cover a wide variety of subjects since my favorite things to do are learning and making, I never shy away from trying a new topic despite how little experience I may have with it.
 </p>
 <br />
-
+<script type="text/javascript">
+ var contents = [];
+ var expand = function(ind) {
+   var container = document.getElementById('exp' + ind);
+   if (container.className.indexOf('content_loaded') == -1) {
+      container.innerHTML = contents[ind];
+      container.className += ' content_loaded';
+   }
+   else {
+      if (container.className.indexOf('hide') == -1) {
+        container.className += ' hide';
+      }
+      else {
+        container.className = container.className.replace(/ hide/, '');
+      }
+   }
+   
+ };
+</script>
 <div class="posts">
   {% if site.experiments.size == 0 %}
     <h1> Please wait! </h1>
@@ -17,7 +35,10 @@ location: 'experiments'
       I'm still populating this section! It will be full soon.
     </p>
   {% endif %}
+  
+  {% assign postCount = '0' %}
   {% for post in site.experiments reversed %}
+  {% capture postCount %}{{ postCount | plus: '1' }}{% endcapture %}
 
     {% if post.link %}
       {% assign link = post.link %}
@@ -33,9 +54,12 @@ location: 'experiments'
       {% else %}
         {% assign link = false %}
       {% endif %}
-
+      <script type='text/javascript'>
+        // Make global thing for post content
+        contents[{{ postCount }}] = '{{ post.content | strip_newlines }}';
+      </script>
       {% if link %}
-        <a href="{{ site.baseurl }}{{ link }}" class="expandLink">
+        <span onclick="expand('{{ postCount }}')" class="expandLink">
         <span class='read-more'> Expand </span>
       {% endif %}
 
@@ -50,10 +74,11 @@ location: 'experiments'
           Tags:
           {{ post.tags | lower | sort | join:', '}}
         </div>
+        <span id="exp{{ postCount }}"></span>
       </div>
 
       {% if link %}
-        </a>
+        </span>
       {% endif %}
     </article>
   {% endfor %}
