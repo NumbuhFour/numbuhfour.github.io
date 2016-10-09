@@ -17,14 +17,6 @@ location: 'experiments'
       container.innerHTML = contents[ind];
       container.className += ' content_loaded';
    }
-   else {
-      if (container.className.indexOf('hide') == -1) {
-        container.className += ' hide';
-      }
-      else {
-        container.className = container.className.replace(/ hide/, '');
-      }
-   }
    
  };
 </script>
