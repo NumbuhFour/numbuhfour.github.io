@@ -37,3 +37,8 @@ For the most part, I've always been dependent on nano for my in-terminal text ed
 | p | Paste last yank |
 | " x y y | Yank current line to buffer `x` |
 | " x p | Paste line from buffer `x` |
+| zf[movement] | Make a fold from cursor to movement |
+| za | Toggle fold |
+| zM | Close all folds |
+| zR | Open all folds |
+| zd | Delete fold |
