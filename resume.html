@@ -5,247 +5,266 @@ permalink: /resume/
 
 <!DOCTYPE HTML>
 <html lang="en">
-	<head>
-		<meta charset="utf-8"/>
-		<title> Francesco DiPietro's Resume </title>
-		<style>
-			@media screen { /* Not for print */
-				/* Debugging * /
-				*:hover { outline: 2px dotted red }
-				* *:hover { outline: 2px dotted green }
-				* * *:hover { outline: 2px dotted orange }
-				* * * *:hover { outline: 2px dotted blue }
-				* * * * *:hover { outline: 1px solid red }
-				* * * * * *:hover { outline: 1px solid green }
-				* * * * * * *:hover { outline: 1px solid orange }
-				* * * * * * * *:hover { outline: 1px solid blue }*/
+    <head>
+        <meta charset="utf-8"/>
+        <title> Francesco DiPietro's Resume </title>
+        <style>
+            @media screen { /* Not for print */
+                /* Debugging * /
+                *:hover { outline: 2px dotted red }
+                * *:hover { outline: 2px dotted green }
+                * * *:hover { outline: 2px dotted orange }
+                * * * *:hover { outline: 2px dotted blue }
+                * * * * *:hover { outline: 1px solid red }
+                * * * * * *:hover { outline: 1px solid green }
+                * * * * * * *:hover { outline: 1px solid orange }
+                * * * * * * * *:hover { outline: 1px solid blue }*/
 
 
-				#page_dim {
-					padding-top: 20px;
-					border: 1px solid black;
-					max-width: 8.5in;
-					/*height: 11in; Sizing to only one page*/
-				}
+                #page_dim {
+                    padding-top: 20px;
+                    border: 1px solid black;
+                    max-width: 8.5in;
+                    /*height: 11in; Sizing to only one page*/
+                }
 
-				html {
-					font-family: verdana, arial, sans-serif;
-				}
-			}
-			@media print {
-				html {
-					font-family: georgia, times, serif;
-					font-size: 11px !important;
-				}
+                html {
+                    font-family: verdana, arial, sans-serif;
+                }
+            }
+            @media print {
+                html {
+                    font-family: georgia, times, serif;
+                    font-size: 11px !important;
+                }
 
-				.print {
-					display: block !important;
-				}
-			}
 
-			html {
-				padding: 0px;
-				font-size: 12px;
-				margin-bottom: 0;
-				padding-bottom: 0;
-			}
+                .print {
+                    display: block !important;
+                }
+                a {
+                    color: black;
+                    text-decoration: none;
+                }
+ 
+                html, body {
+                    height: 98vh !important;
+                    overflow-y : hidden;
+                }
+           }
+            html {
+                padding: 0px;
+                font-size: 12px;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
 
-			.print {
-				display: none;
-			}
+            .print {
+                display: none;
+            }
 
-			#page_dim {
-				padding:10px;
-				margin-left: auto;
-				margin-right: auto;
-			}
-			p, span{
-				margin: 0px;
-				padding: 0px;
-				line-height: 1.3em;
-			}
+            #page_dim {
+                padding:10px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            p, span{
+                margin: 0px;
+                padding: 0px;
+                line-height: 1.3em;
+            }
 
-			#page_title {
-				text-align: center;
-				font-size: 20px;
-				margin: 0px;
-				padding: 0px;
-			}
-			.sub_page_title {
-				text-align: center;
-				margin-bottom: 10px;
-			}
+            #page_title {
+                text-align: center;
+                font-size: 20px;
+                margin: 0px;
+                padding: 0px;
+            }
+            .sub_page_title {
+                text-align: center;
+                margin-bottom: 10px;
+            }
 
-			.section {
-				overflow: hidden; /* Float container control */
-				border-top: 1px solid #E0E0E0;
-				padding-top: 4px;
-				margin-bottom: 11px;
-			}
-			.section_title {
-				float: left;
-				margin: 0px;
-				padding: 0px;
-				height: 100%;
-				width: 100px;
-				font-size: 12px;
-			}
+            .section {
+                overflow: hidden; /* Float container control */
+                border-top: 1px solid #E0E0E0;
+                padding-top: 4px;
+                margin-bottom: 11px;
+            }
+            .section_title {
+                float: left;
+                margin: 0px;
+                padding: 0px;
+                height: 100%;
+                width: 100px;
+                font-size: 12px;
+            }
 
-			.item {
-				margin-left: 100px;
-				height: 100%;
-				margin-bottom: 6px;
-			}
-			.item_title {
-				font-weight: bold;
-			}
-			.item_sub_title {
-				font-style: italic;
-				font-size: 11px;
-			}
-			.item_date {
-				float: right;
-				text-align: right;
-			}
-			.item_date .duration{
-				color: gray;
-			}
-			.item_details {
+            .item {
+                margin-left: 100px;
+                height: 100%;
+                margin-bottom: 6px;
+            }
+            .item_title {
+                font-weight: bold;
+            }
+            .item_sub_title {
+                font-style: italic;
+                font-size: 11px;
+            }
+            .item_date {
+                float: right;
+                text-align: right;
+            }
+            .item_date .duration{
+                color: gray;
+            }
+            .item_details {
 
-			}
+            }
 
-			ul {
-				margin-top: 2px;
-			}
+            ul {
+                margin-top: 2px;
+            }
 
-			a {
-				color: black;
-				text-decoration: none;
-			}
-		</style>
-	</head>
-	<body>
-	<div id="page_dim">
-		<h1 id="page_title"> Francesco DiPietro </h1>
-		<p class="sub_page_title"> Email: fad4470@rit.edu &nbsp; Phone: [Upon request] &nbsp; Website: <a href="https://fad4470.github.io/">https://fad4470.github.io/</a></p>
-		<br />
-		<div class="section" id="objective">
-			<h2 class="section_title"> OBJECTIVE </h2>
-			<div class="item">
-				<span class="item_details"> Currently seeking an internship from April to December 2016. I am an extremely focused individual planning for a career within the professional games industry or a related field. Strong computer skills, team player and fast learner. </span>
-			</div>
-		</div>
+        </style>
+    </head>
+    <body>
+    <div id="page_dim">
+        <h1 id="page_title"> Francesco DiPietro </h1>
+        <p class="sub_page_title"> Email: fad4470@rit.edu &nbsp; Phone: [Upon request] &nbsp; Website: <a href="https://fad4470.github.io/">https://fad4470.github.io/</a></p>
+        <br />
+        <div class="section" id="objective">
+            <h2 class="section_title"> OBJECTIVE </h2>
+            <div class="item">
+                <span class="item_details"> Currently seeking an internship from April to December 2016. I am an extremely focused individual planning for a career within the professional games industry or a related field. Strong computer skills, team player and fast learner. </span>
+            </div>
+        </div>
 
-		<div class="section" id="skills">
-			<h2 class="section_title"> SKILLS </h2>
-			<div class="item">
-				<span class="item_title"> Languages </span>
-					<div class="item_details"> C++, C#, Javascript, Python, Bash, Java, HTML, CSS </div>
-				<div class="item_details">
+        <div class="section" id="skills">
+            <h2 class="section_title"> SKILLS </h2>
+            <div class="item">
+                <span class="item_title"> Languages </span>
+                    <div class="item_details"> C++, C#, Javascript, Python, Bash, Java, HTML, CSS </div>
+                <div class="item_details">
 
-				</div>
-			</div>
-			<div class="item">
-				<span class="item_title"> Libraries & Frameworks </span>
-				<div class="item_details"> Node.js, Android SDK, XNA, OpenGL, DirectX, LWJGL </div>
-			</div>
-			<div class="item">
-				<span class="item_title"> Software </span>
-				<div class="item_details"> Git, Subversion, Unity3D, Autodesk 3DS Max, Autodesk Maya, Blender, Audacity, Adobe Photoshop, GIMP, Inkscape, Visual Studio </div>
-			</div>
-		</div>
+                </div>
+            </div>
+            <div class="item">
+                <span class="item_title"> Libraries & Frameworks </span>
+                <div class="item_details"> Node.js, Android SDK, XNA, OpenGL, DirectX, LWJGL </div>
+            </div>
+            <div class="item">
+                <span class="item_title"> Software </span>
+                <div class="item_details"> Git, Subversion, Unity3D, Autodesk 3DS Max, Autodesk Maya, Blender, Audacity, Adobe Photoshop, GIMP, Inkscape, Visual Studio </div>
+            </div>
+        </div>
 
-		<div class="section" id="projects">
-			<h2 class="section_title"> PROJECTS </h2>
-			<div class="item">
-				<span class="item_title"> Really Make Android Phone App </span>
-				<br />
-				<span class="item_sub_title"> Freelance Project </span>
-				<div class="item_details"> A mobile application designed to permit people to fabricate pottery shapes using a 3D virtual potter's wheel. </div>
-			</div>
-			<div class="item">
-				<span class="item_title"> Grocery Ultimate Market Page </span>
-				<br />
-				<span class="item_sub_title"> Freelance Project </span>
-				<div class="item_details"> Mentorship while developing the webserver backend for an Android mobile and web application. </div>
-			</div>
+        <div class="section" id="projects">
+            <h2 class="section_title"> PROJECTS </h2>
+            <div class="item">
+                <span class="item_title"> <a href="http://delvr.magic.rit.edu/landing"> DelVR: VR Dungeon Creation Web App </a> </span>
+                <br />
+                <span class="item_sub_title"> Course Project </span>
+                <div class="item_details"> Web app for designing dungeons for role-playing board games with VR viewer. Main engineer for editor funcionality. </div>
+            </div>
+            <div class="item">
+                <span class="item_title"> Really Make Android Phone App </span>
+                <br />
+                <span class="item_sub_title"> Freelance Project </span>
+                <div class="item_details"> A mobile application designed to permit people to fabricate pottery shapes using a 3D virtual potter's wheel. </div>
+            </div>
 
-			<div class="item">
-				<span class="item_title"> Kingdom Co-op </span>
-				<br />
-				<span class="item_sub_title"> Course Project </span>
-				<div class="item_details"> A networked strategy game created in Unity3D with a team of 3 people with the purpose of exploring asymmetric co-operative experiences. </div>
-			</div>
+            <div class="item">
+                <span class="item_title"> Kingdom Co-op </span>
+                <br />
+                <span class="item_sub_title"> Course Project </span>
+                <div class="item_details"> A networked strategy game created in Unity3D with a team of 3 people with the purpose of exploring asymmetric co-operative experiences. </div>
+            </div>
 
-			<div class="item">
-				<span class="item_title"> Arduino Smartwatch </span>
-				<br />
-				<span class="item_sub_title"> Course Project </span>
-				<div class="item_details"> A fully-functional Arduino Lilypad powered smartwatch with 3D printed chassis and Android connectivity. </div>
-			</div>
-		</div>
+            <div class="item">
+                <span class="item_title"> Arduino Smartwatch </span>
+                <br />
+                <span class="item_sub_title"> Course Project </span>
+                <div class="item_details"> A fully-functional Arduino Lilypad powered smartwatch with 3D printed chassis and Android connectivity. </div>
+            </div>
+        </div>
 
-		<div class="section" id="experience">
-			<h2 class="section_title"> EXPERIENCE </h2>
-			<div class="item">
-				<span class="item_title"> Student at Rochester Institute of Technology </span>
-				<br />
-				<span class="item_date"> Sept 2012 - Present <br/> <span class="duration">(3 years 5 months)</span></span>
-				<span class="item_sub_title"> Pursuing a bachelor's degree in Game Development and Design. </span>
-				<div class="item_details">
-					Focus:
-					<ul>
-						<li> Graphics engine design with OpenGL and DirectX </li>
-						<li> General game logic and the user experience </li>
-						<li> The development process in a team setting </li>
-					</ul>
-				</div>
-			</div>
-			<div class="item">
-				<span class="item_title"> Assistant Graphic Architect </span>
-				<br />
-				<span class="item_date"> Jun 2015 - Aug 2015 <br/> <span class="duration">(3 months)</span><br /> ReallyMake LLC</span>
-				<span class="item_sub_title"> On an Android application. </span>
-				<div class="item_details">
-					Responsibilities:
-					<ul>
-						<li> Evaluation of the application's graphic sub-system implementation. </li>
-						<li> Finding and discussing failures of the graphic sub-system </li>
-						<li> Repairing failures and adding features to help artistic development </li>
-					</ul>
-				</div>
-			</div>
-			<div class="item">
-				<span class="item_title"> Tech Camps Instructor at internalDrive </span>
-				<br />
-				<span class="item_date"> Jun 2013 - Aug 2014 <br/> <span class="duration">(1 year 3 months)</span><br /> internalDrive Inc.<br /> Chapel-Hill, NC</span>
-				<span class="item_sub_title"> Camp counsellor and class instructor. </span>
-				<div class="item_details">
-					Responsibilities:
-					<ul>
-						<li> Creating an engaging learning environment </li>
-						<li> Prepare lesson plans and lead activities </li>
-						<li> Ensure all students are meeting set curriculum goals </li>
-						<li> Apply behaviour management techniques to enforce rules and safety regulations </li>
-						<li> Supervise students and maintain a safe environment </li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="section" id="education">
-			<h2 class="section_title"> HONORS </h2>
-			<div class="item">
-				<div class="item_details">
-					<ul>
-						<li> Dean's List Academic Year 2014-2015, B. Thomas Golisano College of Computing & Information Sciences </li>
-						<li> Dean's List Winter Quarter 2012-2013, B. Thomas Golisano College of Computing & Information Sciences </li>
-						<li> Dean's List Fall Quarter 2012-2013, B. Thomas Golisano College of Computing & Information Sciences </li>
-						<li> VEX Robotics World Championship </li>
-						<li> VEX Robotics World Championship Design Challenge 1st Place </li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	</body>
+        <div class="section" id="experience">
+            <h2 class="section_title"> EXPERIENCE </h2>
+            <div class="item">
+                <span class="item_title"> Student at Rochester Institute of Technology </span>
+                <br />
+                <span class="item_date"> Sept 2012 - Present <br/> <span class="duration">(4 years 4 months)</span> <br/> Graduating winter of 2016</span>
+                <span class="item_sub_title"> Pursuing a bachelor's degree in Game Development and Design. </span>
+                <div class="item_details">
+                    Focus:
+                    <ul>
+                        <li> Graphics engine design with OpenGL and DirectX </li>
+                        <li> General game logic and the user experience </li>
+                        <li> The development process in a team setting </li>
+                    </ul>
+                </div>
+            </div>
+                <div class="item">
+                    <span class="item_title"> Innovation and Technology Co-op </span>
+                    <br />
+                    <span class="item_date"> June 2016 - Aug 2016 <br /> <span class="duration">(3 months)</span></br /> <a href="http://mitre.org/"> MITRE </a> </span>
+                    <span class="item_sub_title"> Mobile application prototyping within a think-tank. </span>
+                    <div class="item_details">
+                        Responsibilities:
+                        <ul>
+                            <li> Finding and researching existing mobile development services for a given case. </li>
+                            <li> Evaluation of mobile app development tools. </li>
+                            <li> Backend server setup for prototype development. </li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="item">
+                <span class="item_title"> Assistant Graphic Architect </span>
+                <br />
+                <span class="item_date"> Jun 2015 - Aug 2015 <br/> <span class="duration">(3 months)</span><br /> <a href="http://www.reallymake.com/ReallyMakeWeb/"> ReallyMake LLC </a> </span>
+                <span class="item_sub_title"> On an Android application. </span>
+                <div class="item_details">
+                    Responsibilities:
+                    <ul>
+                        <li> Evaluation of the application's graphic sub-system implementation. </li>
+                        <li> Finding and discussing failures of the graphic sub-system </li>
+                        <li> Repairing failures and adding features to help artistic development </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <span class="item_title"> Tech Camps Instructor at internalDrive </span>
+                <br />
+                <span class="item_date"> Jun 2013 - Aug 2014 <br/> <span class="duration">(1 year 3 months)</span><br /> internalDrive Inc.<br /> Chapel-Hill, NC</span>
+                <span class="item_sub_title"> Camp counsellor and class instructor. </span>
+                <div class="item_details">
+                    Responsibilities:
+                    <ul>
+                        <li> Creating an engaging learning environment </li>
+                        <li> Prepare lesson plans and lead activities </li>
+                        <li> Ensure all students are meeting set curriculum goals </li>
+                        <li> Apply behaviour management techniques to enforce rules and safety regulations </li>
+                        <li> Supervise students and maintain a safe environment </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="education">
+            <h2 class="section_title"> HONORS </h2>
+            <div class="item">
+                <div class="item_details">
+                    <ul>
+                        <li> Dean's List Academic Year 2014-2015, B. Thomas Golisano College of Computing & Information Sciences </li>
+                        <li> Dean's List Winter Quarter 2012-2013, B. Thomas Golisano College of Computing & Information Sciences </li>
+                        <li> Dean's List Fall Quarter 2012-2013, B. Thomas Golisano College of Computing & Information Sciences </li>
+                        <li> VEX Robotics World Championship </li>
+                        <li> VEX Robotics World Championship Design Challenge 1st Place </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
 </html>
