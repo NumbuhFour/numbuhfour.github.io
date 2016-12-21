@@ -31,14 +31,20 @@ var walk = function(dir, done) {
     });
 };
 
-walk('../images/experiments/', (err, results) => {
+walk('../images/', (err, results) => {
     results.forEach( file => {
         var outName = path.dirname(file) + '/thmb_' + path.basename(file);
+        if (path.basename(file).startsWith('thmb_')) return; 
 
-        gm(file)
-        .resize(targetSize.w)
-        .write(outName, err => {
-            if(err) console.log("Error writing file:", file, err);
+        var gfile = gm(file);
+        gfile.size((err, val) => {
+            if (err || val.width <= targetSize.w || val.height <= targetSize.h) return;
+
+            gfile
+            .resize(targetSize.w)
+            .write(outName, err => {
+                if(err) console.log("Error writing file:", file, err);
+            });
         });
     });
 });
