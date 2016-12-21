@@ -11,4 +11,4 @@ tags:
   - ABS
 ---
 
-{% include gallery.html id="homestuck" path="/images/printing/homestuck" files="homestuck_all.jpg, homestuck_1.jpg, homestuck_2.jpg, homestuck_3.jpg, homestuck_back.jpg" %}
+{% include gallery.html id="homestuck" path="/images/expiments/printing/homestuck" files="homestuck_all.jpg, homestuck_1.jpg, homestuck_2.jpg, homestuck_3.jpg, homestuck_back.jpg" %}

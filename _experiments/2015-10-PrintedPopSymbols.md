@@ -10,4 +10,4 @@ tags:
   - ABS
 ---
 
-{% include gallery.html id="popsymbols" path="/images/printing/symbols" files="symbols_all.jpg" %}
+{% include gallery.html id="popsymbols" path="/images/experiments/printing/symbols" files="symbols_all.jpg" %}

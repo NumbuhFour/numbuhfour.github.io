@@ -9,7 +9,7 @@ tags:
   - ABS
 ---
 
-{% include gallery.html id="acetone_tests" path="/images/printing/acetone" files="acetone_marvin_front.jpg, acetone_marvin_back.jpg, acetone_tricube.jpg" %}
+{% include gallery.html id="acetone_tests" path="/images/experiments/printing/acetone" files="acetone_marvin_front.jpg, acetone_marvin_back.jpg, acetone_tricube.jpg" %}
 
 The center Marvin was subjected to an acetone vapor bath for about 10 minutes. The large gashes on its back were an unintentional error during printing, but was chosen to see how acetone affected such deep dents in plastic.
 
