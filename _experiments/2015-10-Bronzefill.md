@@ -10,7 +10,7 @@ tags:
   - Bronzefill
   - PLA
 ---
-{% include gallery.html id="bronzefill" path="/images/printing/bronze" files="bronze_all.jpg, bronze_close_1.jpg, bronze_close_2.jpg, bronze_close_3.jpg, bronze_close_4.jpg, bronze_close_5.jpg, bronze_close_6.jpg"%}
+{% include gallery.html id="bronzefill" path="/images/experiments/printing/bronze" files="bronze_all.jpg, bronze_close_1.jpg, bronze_close_2.jpg, bronze_close_3.jpg, bronze_close_4.jpg, bronze_close_5.jpg, bronze_close_6.jpg"%}
 
 I tried a number of different solutions, durations, and techniques, but nothing I tried produced consistent results.
 

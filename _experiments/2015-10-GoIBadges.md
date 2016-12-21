@@ -9,4 +9,4 @@ tags:
   - Blender
   - ABS
 ---
-{% include gallery.html id="goiBadge" path="/images/printing/goi_badges" files="goi_badges.jpg, goi_pilot.jpg, goi_gunner.jpg, goi_engineer.jpg, goi_logo.jpg,  goi_logo_alt.jpg" %}
+{% include gallery.html id="goiBadge" path="/images/experiments/printing/goi_badges" files="goi_badges.jpg, goi_pilot.jpg, goi_gunner.jpg, goi_engineer.jpg, goi_logo.jpg,  goi_logo_alt.jpg" %}

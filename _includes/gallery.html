@@ -4,7 +4,7 @@
 
   {% for file in fileArr %}
     {% assign stripFile = file | strip %}
-    <a href="#{{ include.id }}{{ forloop.index }}"><img src="{{ include.path }}/{{ stripFile }}" style="width:130px;height:auto"/></a>
+    <a href="#{{ include.id }}{{ forloop.index }}"><img src="{{ include.path }}/thmb_{{ stripFile }}" style="width:130px;height:auto"/></a>
     <a href="#_ " class="lightbox" id="{{ include.id }}{{ forloop.index }}"><img src="{{ include.path }}/{{ stripFile }}"/></a>
   {% endfor %}
 </div>
