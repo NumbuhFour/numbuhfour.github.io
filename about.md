@@ -26,7 +26,7 @@ So far this has included:
 
 Email: [fad4470@rit.edu](mailto:fad4470@rit.edu)
 
-Resume: [view here]({{ site.baseurl }}/resume/) or [download PDF]({{ site.baseurl }}/downloads/resume.pdf)
+Resume: [view here]({{ site.baseurl }}/resume.html) or [download PDF]({{ site.baseurl }}/downloads/resume.pdf)
 
 <div class="columnContainer">
   <div class="leftColumn">
