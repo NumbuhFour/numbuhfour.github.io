@@ -4,7 +4,6 @@ permalink: /resume/
 ---
 
 <!DOCTYPE html>
-<!-- saved from url=(0068)file:///D:/projects/jekyll/fad4470.github.io/_site/resume/index.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <title> Francesco DiPietro's Resume </title>
@@ -48,10 +47,18 @@ permalink: /resume/
                 }
 
                 html, body {
-                    height: 98vh !important;
-                    overflow-y : hidden;
+                    //height: 98vh !important;
+                    //overflow-y : hidden;
                 }
            }
+             span.o3m41l:before {
+                 content: attr(data-x) "\0040";
+             }
+             span.o3m41l:after {
+                 content: attr(data-y);
+             }
+
+
             html {
                 padding: 0px;
                 font-size: 12px;
@@ -132,7 +139,7 @@ permalink: /resume/
     <body>
     <div id="page_dim">
         <h1 id="page_title"> Francesco DiPietro </h1>
-        <p class="sub_page_title"> Email: francesco.thefourth@rit.edu &nbsp; Website: <a href="https://numbuhfour.github.io/">https://numbuhfour.github.io/</a></p>
+        <p class="sub_page_title"> Email: <span>{% email francesco.thefourth@gmail.com %}</span> &nbsp; Website: <a href="https://numbuhfour.github.io/">https://numbuhfour.github.io/</a></p>
         <br>
         <div class="section" id="objective">
             <h2 class="section_title"> OBJECTIVE </h2>
@@ -152,7 +159,7 @@ permalink: /resume/
             </div>
             <div class="item">
                 <span class="item_title"> Libraries &amp; Frameworks </span>
-                <div class="item_details"> Node.js, Express, Android SDK, XNA, OpenGL, DirectX, LWJGL </div>
+                <div class="item_details"> Node.js, Express, React, NodeCG, Android SDK, XNA, OpenGL, DirectX, LWJGL </div>
             </div>
             <div class="item">
                 <span class="item_title"> Creation Software </span>
@@ -160,17 +167,23 @@ permalink: /resume/
             </div>
             <div class="item">
                 <span class="item_title"> Project Software </span>
-                <div class="item_details"> JIRA, Zephyr, Testrail Perforce, Git, Subversion </div>
+                <div class="item_details"> JIRA, Zephyr, Testrail, Perforce, Git, Subversion </div>
             </div>
         </div>
 
         <div class="section" id="projects">
             <h2 class="section_title"> PROJECTS </h2>
             <div class="item">
-                <span class="item_title"> <a href="http://delvr.magic.rit.edu/landing"> DelVR: VR Dungeon Creation Web App </a> </span>
+              <span class="item_title"> Dashboard-controlled Live Stream overlay</span>
                 <br>
-                <span class="item_sub_title"> Course Project with the Magic Spell Studios</span>
-                <div class="item_details"> Web app for designing dungeons for role-playing board games with VR viewer. Main engineer for editor funcionality. </div>
+                <span class="item_sub_title"> Volunteer project. Designing and programming tools and overlays for a Twitch.tv stream </span>
+                <div class="item_details"> Various networked bundles implemented with NodeCG to assist in managing a professional-quality live stream. </div>
+            </div>
+            <div class="item">
+                <span class="item_title"> Fragile Equilibrium </span>
+                <br>
+                <span class="item_sub_title"> Development Lead on Course Project with the Magic Spell Studios</span>
+                <div class="item_details"> First concept prototype for a sidescrolling shooter about balacing offence and recovery. </div>
             </div>
             <div class="item">
                 <span class="item_title"> Really Make Android Phone App </span>
@@ -197,16 +210,58 @@ permalink: /resume/
         <div class="section" id="experience">
             <h2 class="section_title"> EXPERIENCE </h2>
         		<div class="item">
-    				<span class="item_title"> Student at Rochester Institute of Technology </span>
+    				<span class="item_title"> Senior Ray Tracing QA Analyst at Epic Games </span>
     				<br>
-    				<span class="item_date"> Sept 2012 - Dec 2016 <br> <span class="duration">(4 years 4 months)</span> </span>
-    				<span class="item_sub_title"> Graduated with a bachelor's degree in Game Development and Design. </span>
+    				<span class="item_date"> February 2020 - Present <br> <span class="duration">(4 months)</span> </span>
+    				<span class="item_sub_title"> QA analyst for the ray tracing team on Unreal Engine. </span>
     				<div class="item_details">
-						Focus:
+						Responisbilities:
 						<ul>
-							<li> Graphics engine design with OpenGL and DirectX </li>
-							<li> General game logic and the user experience </li>
-							<li> The development process in a team setting </li>
+              <li> Work closely with small dev team to ensure feature health and meet milestones for partners </li>
+              <li> Previous Rendering QA Analyst responsibilities </li>
+						</ul>
+    				</div>
+        		</div>
+
+        		<div class="item">
+    				<span class="item_title"> Rendering QA Analyst at Epic Games </span>
+    				<br>
+    				<span class="item_date"> August 2018 - February 2020 <br> <span class="duration">(1 year 6 months)</span> </span>
+    				<span class="item_sub_title"> QA analyst for the graphics programming team on Unreal Engine. </span>
+    				<div class="item_details">
+						Responisbilities:
+						<ul>
+              <li> Manage multiple features across 5 teams and 35 developers </li>
+              <li> Analyze callstacks, logs, and changelists of crashes to find probable cause for bug assignment </li>
+              <li> Performance profiling across all supported platforms </li>
+							<li> Plan and develop test coverage for engine features during development </li>
+							<li> Report health of features to maintain health of upstream and releases </li>
+							<li> Organize and assist testing efforts for product releases </li>
+						</ul>
+    				</div>
+        		</div>
+
+        		<div class="item">
+    				<span class="item_title"> Software Tester Contractor with Volt at Epic Games </span>
+    				<br>
+    				<span class="item_date"> July 2017 - August 2018 <br> <span class="duration">(1 year 1 months)</span> </span>
+    				<span class="item_sub_title"> Software tester for the Unreal Engine. </span>
+    				<div class="item_details">
+						Responisbilities:
+						<ul>
+							<li> Perform functional and subjective testing on the Unreal Engine </li>
+							<li> Research and log detailed bugs to provide concise debugging information </li>
+							<li> Test and verify fixes for logged defects </li>
+              <li> Training newly hired team memebers </li>
+							<li>
+                Building for and launching to all supported platforms
+                <ul>
+                  <li> Consoles: PS4, Xbox One, Switch </li>
+                  <li> Desktop: Windows, Mac, Linux </li>
+                  <li> Mobile: Android, iOS, and multiple versions of each </li>
+                  <li> VR: Oculus, Vive </li>
+                </ul>
+              </li>
 						</ul>
     				</div>
         		</div>
@@ -222,6 +277,7 @@ permalink: /resume/
                         <li> Graphics engine design with OpenGL and DirectX </li>
                         <li> General game logic and the user experience </li>
                         <li> The development process in a team setting </li>
+
                     </ul>
                 </div>
             </div>
@@ -233,9 +289,9 @@ permalink: /resume/
                     <div class="item_details">
                         Responsibilities:
                         <ul>
+                            <li> Backend server setup for prototype development. </li>
                             <li> Finding and researching existing mobile development services for a given case. </li>
                             <li> Evaluation of mobile app development tools. </li>
-                            <li> Backend server setup for prototype development. </li>
                         </ul>
                     </div>
                 </div>
@@ -250,22 +306,6 @@ permalink: /resume/
                         <li> Evaluation of the application's graphic sub-system implementation. </li>
                         <li> Finding and discussing failures of the graphic sub-system </li>
                         <li> Repairing failures and adding features to help artistic development </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item">
-                <span class="item_title"> Tech Camps Instructor at internalDrive </span>
-                <br>
-                <span class="item_date"> Jun 2013 - Aug 2014 <br> <span class="duration">(1 year 3 months)</span><br> internalDrive Inc.<br> Chapel-Hill, NC</span>
-                <span class="item_sub_title"> Camp counsellor and class instructor. </span>
-                <div class="item_details">
-                    Responsibilities:
-                    <ul>
-                        <li> Creating an engaging learning environment </li>
-                        <li> Prepare lesson plans and lead activities </li>
-                        <li> Ensure all students are meeting set curriculum goals </li>
-                        <li> Apply behaviour management techniques to enforce rules and safety regulations </li>
-                        <li> Supervise students and maintain a safe environment </li>
                     </ul>
                 </div>
             </div>

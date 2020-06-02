@@ -11,9 +11,9 @@ I focus in general game programming as well as network and graphics programming,
 
 ### Contact me
 
-Email: [francesco.thefourth@gmail.com](mailto:francesco.thefourth@gmail.com)
+Email: {% email francesco.thefourth@gmail.com %}
 
-Resume: [view here]({{ site.baseurl }}/resume.html) or [download PDF]({{ site.baseurl }}/downloads/resume.pdf)
+Resume: [view here]({{ site.baseurl }}/resume) or [download PDF]({{ site.baseurl }}/downloads/resume.pdf)
 
 <div class="columnContainer">
   <div class="leftColumn">
