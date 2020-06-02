@@ -10,6 +10,7 @@ tags:
   - Casual
   - Ongoing
   - 2016
+timestamp: February 2016
 ---
 
 Star Mother is a casual mobile game targeted at Android made in Unity3D. The premise is that you are helping the sun in a solar system attract all her friends that disappeared by placing new stars in the sky. You do this by collecting shooting stars and drawing them into space, moving your phone around as a viewport to change your perspective.

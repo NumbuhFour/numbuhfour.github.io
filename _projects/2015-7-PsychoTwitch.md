@@ -10,6 +10,7 @@ tags:
   - Heroku
   - MongoDB
   - Twitch.tv
+timestamp: July 2015
 ---
 
 The premise of this project was to create an algorithm based off the traffic of viewers versus streamers for each game being played on the game streaming website [Twitch.tv](http://twitch.tv). It was a simple personal project that started when a friend of mine had the neat idea and I thought it'd be interesting to work on. We worked on it for the majority of the summer, but unfortunately/fortunately that friend got a job half way through and was no longer able to work on it with me.

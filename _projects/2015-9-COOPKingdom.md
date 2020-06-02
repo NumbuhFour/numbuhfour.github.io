@@ -10,6 +10,7 @@ tags:
   - UI
   - 2D
   - Classwork
+timestamp: September 2015
 ---
 
 With credit to my two teammates on this project, Bernd Paulus and Kyle Forgaard.

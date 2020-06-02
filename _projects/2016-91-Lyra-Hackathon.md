@@ -8,6 +8,7 @@ tags:
   - Casual
   - Hackathon
   - 2016
+timestamp: September 2016
 ---
 
 RIT did a small hackathon recently as a kind of a prelude to Microsoft's much bigger hackathon [ImagineCup](http://msa.ms/imaginecup/). A few of my friends and I decided to take part to see what we could make together. The party consisted as me as a programmer, [Jaben McCormack](https://github.com/superjabenman) as programmer and sound designer, [David Erbelding](https://github.com/Erbelding) as programmer and VFX artist, and DJ Guscott as the lone artist.  
@@ -33,8 +34,7 @@ I think we accomplished it. To me, it proved how big a difference small details 
  - Sound effects at every impact and event
  - Controller support
 
-What I noticed from a lot of previous projects as well as projects of my peers is that they often overlook or skip things that when missing jar the player who may not notice it's missing until its mentioned. These are usually bigger things like a menu being ugly or there not being any sound. To an eager developer, these things are trivial and put on the backlog thinking "they'll get done eventually, this other thing is more important." Usually that other thing is the core mechanics, and that is understandable. Core mechanics are undoubtedly the most important thing to a game, but it's vital as a developer to know how to implement it quickly so that it may be iterated upon while the surrounding features can be built. This requires knowing when your core mechanic is in a state that can adequately convey itself to testers, which can be just as difficult as implementing it. Sometimes though, the "other thing" is something completely unrelated, and that's when watching a project is the most frustrating, because the developer feels that something like the level editor or the character creation absolutely *must* be completed before they even touch the gameplay. 
+What I noticed from a lot of previous projects as well as projects of my peers is that they often overlook or skip things that when missing jar the player who may not notice it's missing until its mentioned. These are usually bigger things like a menu being ugly or there not being any sound. To an eager developer, these things are trivial and put on the backlog thinking "they'll get done eventually, this other thing is more important." Usually that other thing is the core mechanics, and that is understandable. Core mechanics are undoubtedly the most important thing to a game, but it's vital as a developer to know how to implement it quickly so that it may be iterated upon while the surrounding features can be built. This requires knowing when your core mechanic is in a state that can adequately convey itself to testers, which can be just as difficult as implementing it. Sometimes though, the "other thing" is something completely unrelated, and that's when watching a project is the most frustrating, because the developer feels that something like the level editor or the character creation absolutely *must* be completed before they even touch the gameplay.
 
 
 The game is available for download and play [here](https://github.com/DJ-and-the-Progs/jumpjumpjumpjump/releases).
-

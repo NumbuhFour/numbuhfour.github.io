@@ -22,6 +22,7 @@ location: 'blog'
       {% if post.excerpt.size != post.content.size %}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       {% endif %}
+      <div class="postdate"> {{ post.date | date: '%B %Y' }} </div>
     </article>
   {% endfor %}
 </div>

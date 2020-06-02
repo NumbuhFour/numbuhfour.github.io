@@ -6,6 +6,7 @@ tags:
   - RaspberryPI
   - Bash
   - RaspberryPIZero
+timestamp: February 2016
 ---
 
 A short project to explore the potential of the Raspberry Pi, as well as a means of learning more about unix in general.

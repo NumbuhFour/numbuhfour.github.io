@@ -274,6 +274,18 @@ nav {
   border-bottom: none;
 }
 
+.posts {
+  .postdate {
+    color: grey;
+    float: right;
+
+    font-size: 70%;
+    line-height: 1em;
+    position: relative;
+    top: 0.5em;
+  }
+}
+
 .post {
   blockquote {
     margin: 1.8em .8em;

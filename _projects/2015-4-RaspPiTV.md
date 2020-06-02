@@ -8,6 +8,7 @@ tags:
   - Circuity
   - WebDevelopment
   - 2015
+timestamp: March 2015
 ---
 
 Walking past my TV every morning inspired me to do something with it. Leaving it off and unused felt like such a waste, so I put together a small webpage just to display some basic information. Namely the time, weather, and some interesting news articles.

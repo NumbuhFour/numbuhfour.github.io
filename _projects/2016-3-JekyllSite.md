@@ -6,6 +6,7 @@ tags:
   - Jekyll
   - Github
   - WebDevelopment
+timestamp: March 2016
 ---
 
 I set up this blog about a year ago as a means of documenting projects for classes after getting fed up with Wordpress.
